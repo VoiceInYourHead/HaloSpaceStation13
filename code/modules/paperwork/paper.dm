@@ -162,12 +162,12 @@
 			break
 
 	if(links)
-		var/before = copytext_char(info_links, 1, textindex)
-		var/after = copytext_char(info_links, textindex)
+		var/before = copytext(info_links, 1, textindex)
+		var/after = copytext(info_links, textindex)
 		info_links = before + text + after
 	else
-		var/before = copytext_char(info, 1, textindex)
-		var/after = copytext_char(info, textindex)
+		var/before = copytext(info, 1, textindex)
+		var/after = copytext(info, textindex)
 		info = before + text + after
 		updateinfolinks()
 
@@ -198,20 +198,20 @@
 		return ""
 
 	if(findtext(t, "\[sign\]"))
-		t = replacetext_char(t, "\[sign\]", "<font face=\"[signfont]\"><i>[get_signature(P, user)]</i></font>")
+		t = replacetext(t, "\[sign\]", "<font face=\"[signfont]\"><i>[get_signature(P, user)]</i></font>")
 
 	if(iscrayon) // If it is a crayon, and he still tries to use these, make them empty!
-		t = replacetext_char(t, "\[*\]", "")
-		t = replacetext_char(t, "\[hr\]", "")
-		t = replacetext_char(t, "\[small\]", "")
-		t = replacetext_char(t, "\[/small\]", "")
-		t = replacetext_char(t, "\[list\]", "")
-		t = replacetext_char(t, "\[/list\]", "")
-		t = replacetext_char(t, "\[table\]", "")
-		t = replacetext_char(t, "\[/table\]", "")
-		t = replacetext_char(t, "\[row\]", "")
-		t = replacetext_char(t, "\[cell\]", "")
-		t = replacetext_char(t, "\[logo\]", "")
+		t = replacetext(t, "\[*\]", "")
+		t = replacetext(t, "\[hr\]", "")
+		t = replacetext(t, "\[small\]", "")
+		t = replacetext(t, "\[/small\]", "")
+		t = replacetext(t, "\[list\]", "")
+		t = replacetext(t, "\[/list\]", "")
+		t = replacetext(t, "\[table\]", "")
+		t = replacetext(t, "\[/table\]", "")
+		t = replacetext(t, "\[row\]", "")
+		t = replacetext(t, "\[cell\]", "")
+		t = replacetext(t, "\[logo\]", "")
 
 	if(iscrayon)
 		t = "<font face=\"[crayonfont]\" color=[P ? P.colour : "black"]><b>[t]</b></font>"

@@ -38,8 +38,8 @@
 	var/splitpoint = findtext(act, " ")
 	if(splitpoint > 0)
 		var/tempstr = act
-		act = copytext_char(tempstr,1,splitpoint)
-		message = copytext_char(tempstr,splitpoint+1,0)
+		act = copytext(tempstr,1,splitpoint)
+		message = copytext(tempstr,splitpoint+1,0)
 
 	var/decl/emote/use_emote = usable_emotes[act]
 	if(!use_emote)

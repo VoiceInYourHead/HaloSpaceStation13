@@ -97,7 +97,7 @@ var/global/list/obj/machinery/message_server/message_servers = list()
 /obj/machinery/message_server/proc/send_pda_message(var/recipient = "",var/sender = "",var/message = "")
 	var/result
 	for (var/token in spamfilter)
-		if (findlasttext_char(message,token))
+		if (findtextEx(message,token))
 			message = "<font color=\"red\">[message]</font>"	//Rejected messages will be indicated by red color.
 			result = token										//Token caused rejection (if there are multiple, last will be chosen>.
 	pda_msgs += new/datum/data_pda_msg(recipient,sender,message)
@@ -341,9 +341,9 @@ var/obj/machinery/blackbox_recorder/blackbox
 
 // Sanitize inputs to avoid SQL injection attacks
 proc/sql_sanitize_text(var/text)
-	text = replacetext_char(text, "'", "''")
-	text = replacetext_char(text, ";", "")
-	text = replacetext_char(text, "&", "")
+	text = replacetext(text, "'", "''")
+	text = replacetext(text, ";", "")
+	text = replacetext(text, "&", "")
 	return text
 
 proc/feedback_set(var/variable,var/value)
