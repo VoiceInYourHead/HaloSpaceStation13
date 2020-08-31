@@ -241,8 +241,9 @@
 	desc = "Standard issue uniform for UNSC Marine Corps."
 	name = "UNSC Marine fatigues"
 	item_state = "egorium-uniform"
-	icon_state = "egorium-uniform_obj"
+	icon_state = "egorium_obj"
 	worn_state = "egorium-uniform"
+
 
 /obj/item/weapon/storage/box/large/donator/egorium
 	startswith = list(/obj/item/clothing/head/helmet/marine/egorium,
