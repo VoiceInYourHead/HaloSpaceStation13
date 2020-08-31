@@ -79,9 +79,9 @@
 		return
 
 	//identify any emote hotkeys
-	switch(copytext(message,1,2))
-		if("*") return emote(copytext(message,2))
-		if("^") return custom_emote(1, copytext(message,2))
+	switch(copytext_char(message,1,2))
+		if("*") return emote(copytext_char(message,2))
+		if("^") return custom_emote(1, copytext_char(message,2))
 
 	//cant speak if we're muzzled
 	if(is_muzzled())
@@ -94,9 +94,9 @@
 	//remove the radio hotkey from the message
 	if (message_mode)
 		if(message_mode == ";")
-			message = copytext(message, 2)
+			message = copytext_char(message, 2)
 		else
-			message = copytext(message, 3)
+			message = copytext_char(message, 3)
 
 	//remove any leftover whitespace
 	message = trim_left(message)
@@ -105,7 +105,7 @@
 	if(!speaking)
 		speaking = parse_language(message)
 		if(speaking)
-			message = copytext(message,2+length(speaking.key))
+			message = copytext_char(message,2+length_char(speaking.key))
 		else
 			speaking = get_default_language()
 

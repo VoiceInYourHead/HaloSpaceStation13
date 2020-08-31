@@ -87,7 +87,7 @@
 	return get_turf(src)
 
 /mob/proc/say_test(var/text)
-	var/ending = copytext(text, length(text))
+	var/ending = copytext_char(text, length_char(text))
 	if (ending == "?")
 		return "1"
 	else if (ending == "!")
@@ -101,8 +101,8 @@
 	if(length(message) >= 1 && copytext(message,1,2) == ";")
 		return ";"
 
-	if(length(message) >= 2 && (copytext(message,1,2) == ":" || copytext(message,1,2) == "."))
-		var/channel_prefix = copytext(message, 2 ,3)
+	if(length_char(message) >= 2 && (copytext_char(message,1,2) == ":" || copytext(message,1,2) == "."))
+		var/channel_prefix = copytext_char(message, 2 ,3)
 		//finally the channel hotkeys arent duplicated for uppercase/lowercase... goodbye 2011 hello 2020
 		return lowertext(channel_prefix)//department_radio_keys[channel_prefix]
 
@@ -111,12 +111,12 @@
 //parses the language code (e.g. :j) from text, such as that supplied to say.
 //returns the language object only if the code corresponds to a language that src can speak, otherwise null.
 /mob/proc/parse_language(var/message)
-	var/prefix = copytext(message,1,2)
+	var/prefix = copytext_char(message,1,2)
 	if(length(message) >= 1 && prefix == "!")
 		return all_languages["Noise"]
 
 	if(length(message) >= 2 && is_language_prefix(prefix))
-		var/language_prefix = lowertext(copytext(message, 2 ,3))
+		var/language_prefix = lowertext(copytext_char(message, 2 ,3))
 		var/datum/language/L = language_keys[language_prefix]
 		if (can_speak(L))
 			return L

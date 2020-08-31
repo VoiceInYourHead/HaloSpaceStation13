@@ -2,34 +2,7 @@
 //This is a list of words which are ignored by the parser when comparing message contents for names. MUST BE IN LOWER CASE!
 var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","alien","as")
 
-<<<<<<< HEAD
 /proc/generate_ahelp_key_words(var/mob/mob, var/msg)
-=======
-/client/verb/adminhelp(msg as text)
-	set category = "Admin"
-	set name = "Adminhelp"
-
-	//handle muting and automuting
-	if(prefs.muted & MUTE_ADMINHELP)
-		to_chat(src, "<font color='red'>Error: Admin-PM: You cannot send adminhelps (Muted).</font>")
-		return
-
-	adminhelped = 1 //Determines if they get the message to reply by clicking the name.
-
-
-	//clean the input msg
-	if(!msg)
-		return
-	msg = sanitize(msg)
-	if(!msg)
-		return
-	var/original_msg = msg
-
-	//explode the input msg into a list
-	var/list/msglist = splittext(msg, " ")
-
-	//generate keywords lookup
->>>>>>> parent of d5f234abd0... russian (в прогрессе)
 	var/list/surnames = list()
 	var/list/forenames = list()
 	var/list/ckeys = list()

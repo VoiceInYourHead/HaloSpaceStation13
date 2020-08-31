@@ -204,12 +204,12 @@
 	return ..()
 
 /mob/living/carbon/human/parse_language(var/message)
-	var/prefix = copytext(message,1,2)
-	if(length(message) >= 1 && prefix == "!")
+	var/prefix = copytext_char(message,1,2)
+	if(length_char(message) >= 1 && prefix == "!")
 		return all_languages["Noise"]
 
-	if(length(message) >= 2 && is_language_prefix(prefix))
-		var/language_prefix = lowertext(copytext(message, 2 ,3))
+	if(length_char(message) >= 2 && is_language_prefix(prefix))
+		var/language_prefix = lowertext(copytext_char(message, 2 ,3))
 		var/datum/language/L = language_keys[language_prefix]
 		if (can_speak(L))
 			return L
