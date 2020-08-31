@@ -14,24 +14,24 @@
 		if(client)
 			var/virgin = 1	//has the text been modified yet?
 			var/temp = winget(client, "input", "text")
-			if(findlasttext_char(temp, "Say \"", 1, 7) && length(temp) > 5)	//case sensitive means
+			if(findtextEx(temp, "Say \"", 1, 7) && length(temp) > 5)	//case sensitive means
 
-				temp = replacetext_char(temp, ";", "")	//general radio
+				temp = replacetext(temp, ";", "")	//general radio
 
 				if(findtext(trim_left(temp), ":", 6, 7))	//dept radio
-					temp = copytext_char(trim_left(temp), 8)
+					temp = copytext(trim_left(temp), 8)
 					virgin = 0
 
 				if(virgin)
-					temp = copytext_char(trim_left(temp), 6)	//normal speech
+					temp = copytext(trim_left(temp), 6)	//normal speech
 					virgin = 0
 
 				while(findtext(trim_left(temp), ":", 1, 2))	//dept radio again (necessary)
-					temp = copytext_char(trim_left(temp), 3)
+					temp = copytext(trim_left(temp), 3)
 
 				if(findtext(temp, "*", 1, 2))	//emotes
 					return
-				temp = copytext_char(trim_left(temp), 1, rand(5,8))
+				temp = copytext(trim_left(temp), 1, rand(5,8))
 
 				var/trimmed = trim_left(temp)
 				if(length(trimmed))
@@ -104,7 +104,7 @@
 
 /mob/living/carbon/human/say_quote(var/message, var/datum/language/speaking = null)
 	var/verb = "says"
-	var/ending = copytext_char(message, length(message))
+	var/ending = copytext(message, length(message))
 
 	if(speaking)
 		verb = speaking.get_spoken_verb(ending)
@@ -204,12 +204,12 @@
 	return ..()
 
 /mob/living/carbon/human/parse_language(var/message)
-	var/prefix = copytext_char(message,1,2)
+	var/prefix = copytext(message,1,2)
 	if(length(message) >= 1 && prefix == "!")
 		return all_languages["Noise"]
 
 	if(length(message) >= 2 && is_language_prefix(prefix))
-		var/language_prefix = lowertext(copytext_char(message, 2 ,3))
+		var/language_prefix = lowertext(copytext(message, 2 ,3))
 		var/datum/language/L = language_keys[language_prefix]
 		if (can_speak(L))
 			return L

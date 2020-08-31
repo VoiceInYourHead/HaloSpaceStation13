@@ -57,7 +57,7 @@
 	overlays += occupant_image
 
 /obj/vehicles/drop_pod/proc/parse_offsets(var/mob/living/carbon/human/h)
-	var/list/offsets = splittext_char(species_offsets[h.species.name],",")
+	var/list/offsets = splittext(species_offsets[h.species.name],",")
 	for(var/i in offsets)
 		offsets -= i
 		offsets += text2num(i)

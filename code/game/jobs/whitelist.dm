@@ -14,7 +14,7 @@ var/list/whitelist = list()
 	for(var/value in whitelist_base) //Added some code to handle jobs.
 		if(isnull(value) || value == "" || value == " ")
 			continue
-		var/name_and_job = splittext_char(value,"=")
+		var/name_and_job = splittext(value,"=")
 		if(isnull(name_and_job) || name_and_job[1] == value)
 			whitelist += value
 		else
@@ -47,7 +47,7 @@ var/list/whitelist = list()
 		log_misc("Failed to load config/alienwhitelist.txt")
 		return 0
 	else
-		alien_whitelist = splittext_char(text, "\n")
+		alien_whitelist = splittext(text, "\n")
 		return 1
 /proc/load_alienwhitelistSQL()
 	var/DBQuery/query = dbcon_old.NewQuery("SELECT * FROM whitelist")
