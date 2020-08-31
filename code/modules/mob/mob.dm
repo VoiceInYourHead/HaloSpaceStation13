@@ -490,11 +490,7 @@
 		src << browse(null, t1)
 
 	if(href_list["flavor_more"])
-<<<<<<< HEAD
-		usr << browse(text("<HTML><meta charset=\"utf-8\"><HEAD><TITLE>[]</TITLE></HEAD><BODY><TT>[]</TT></BODY></HTML>", name, replacetext_char(flavor_text, "\n", "<BR>")), text("window=[];size=500x200", name))
-=======
 		usr << browse(text("<HTML><HEAD><TITLE>[]</TITLE></HEAD><BODY><TT>[]</TT></BODY></HTML>", name, replacetext(flavor_text, "\n", "<BR>")), text("window=[];size=500x200", name))
->>>>>>> parent of d5f234abd0... russian (в прогрессе)
 		onclose(usr, "[name]")
 	if(href_list["flavor_change"])
 		update_flavor_text()

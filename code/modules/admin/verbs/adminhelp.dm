@@ -2,9 +2,6 @@
 //This is a list of words which are ignored by the parser when comparing message contents for names. MUST BE IN LOWER CASE!
 var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","alien","as")
 
-<<<<<<< HEAD
-/proc/generate_ahelp_key_words(var/mob/mob, var/msg)
-=======
 /client/verb/adminhelp(msg as text)
 	set category = "Admin"
 	set name = "Adminhelp"
@@ -29,14 +26,9 @@ var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","
 	var/list/msglist = splittext(msg, " ")
 
 	//generate keywords lookup
->>>>>>> parent of d5f234abd0... russian (в прогрессе)
 	var/list/surnames = list()
 	var/list/forenames = list()
 	var/list/ckeys = list()
-
-	//explode the input msg into a list
-	var/list/msglist = splittext(msg, " ")
-
 	for(var/mob/M in GLOB.mob_list)
 		var/list/indexing = list(M.real_name, M.name)
 		if(M.mind)	indexing += M.mind.name
@@ -66,10 +58,8 @@ var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","
 		var/word = ckey(original_word)
 		if(word)
 			if(!(word in adminhelp_ignored_words))
-				if(word == "ai" && !ai_found)
+				if(word == "ai")
 					ai_found = 1
-					msg += "<b>[original_word] <A HREF='?_src_=holder;adminchecklaws=\ref[mob]'>(CL)</A></b> "
-					continue
 				else
 					var/mob/found = ckeys[word]
 					if(!found)
@@ -79,42 +69,21 @@ var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","
 					if(found)
 						if(!(found in mobs_found))
 							mobs_found += found
-							msg += "<b>[original_word] <A HREF='?_src_=holder;adminmoreinfo=\ref[found]'>(?)</A>"
 							if(!ai_found && isAI(found))
 								ai_found = 1
-								msg += " <A HREF='?_src_=holder;adminchecklaws=\ref[mob]'>(CL)</A>"
-							msg += "</b> "
+							msg += "<b><font color='black'>[original_word] (<A HREF='?_src_=holder;adminmoreinfo=\ref[found]'>?</A>)</font></b> "
 							continue
-		msg += "[original_word] "
-
-	return msg
-
-/client/verb/adminhelp(msg as text)
-	set category = "Admin"
-	set name = "Adminhelp"
-
-	//handle muting and automuting
-	if(prefs.muted & MUTE_ADMINHELP)
-		to_chat(src, "<font color='red'>Error: Admin-PM: You cannot send adminhelps (Muted).</font>")
-		return
-
-	adminhelped = 1 //Determines if they get the message to reply by clicking the name.
-
-
-	//clean the input msg
-	if(!msg)
-		return
-	msg = sanitize(msg)
-	if(!msg)
-		return
-	var/original_msg = msg
-
+			msg += "[original_word] "
 
 	if(!mob) //this doesn't happen
 		return
 
-	//generate keywords lookup
-	msg = generate_ahelp_key_words(mob, msg)
+	var/ai_cl
+	if(ai_found)
+		ai_cl = " (<A HREF='?_src_=holder;adminchecklaws=\ref[mob]'>CL</A>)"
+
+			//Options bar:  mob, details ( admin = 2, dev = 3, mentor = 4, character name (0 = just ckey, 1 = ckey and character name), link? (0 no don't make it a link, 1 do so),
+			//		highlight special roles (0 = everyone has same looking name, 1 = antags / special roles get a golden name)
 
 	// handle ticket
 	var/datum/client_lite/client_lite = client_repository.get_lite_client(src)
@@ -137,29 +106,29 @@ var/list/adminhelp_ignored_words = list("unknown","the","a","an","of","monkey","
 	ticket.msgs += new /datum/ticket_msg(src.ckey, null, original_msg)
 	update_ticket_panels()
 
-
-	//Options bar:  mob, details ( admin = 2, dev = 3, character name (0 = just ckey, 1 = ckey and character name), link? (0 no don't make it a link, 1 do so),
-	//		highlight special roles (0 = everyone has same looking name, 1 = antags / special roles get a golden name)
-
-	msg = "<span class='notice'><b><font color=red>HELP: </font>[get_options_bar(mob, 2, 1, 1, 1, ticket)] (<a href='?_src_=holder;take_ticket=\ref[ticket]'>[(ticket.status == TICKET_OPEN) ? "TAKE" : "JOIN"]</a>) (<a href='?src=\ref[usr];close_ticket=\ref[ticket]'>CLOSE</a>):</b> [msg]</span>"
+	var/mentor_msg = "<span class='notice'><b><font color=red>HELP: </font>[get_options_bar(mob, 4, 1, 1, 0, ticket)][ai_cl] (<a href='?_src_=holder;take_ticket=\ref[ticket]'>[(ticket.status == TICKET_OPEN) ? "TAKE" : "JOIN"]</a>) (<a href='?src=\ref[usr];close_ticket=\ref[ticket]'>CLOSE</a>):</b> [msg]</span>"
+	msg = "<span class='notice'><b><font color=red>HELP: </font>[get_options_bar(mob, 2, 1, 1, 1, ticket)][ai_cl] (<a href='?_src_=holder;take_ticket=\ref[ticket]'>[(ticket.status == TICKET_OPEN) ? "TAKE" : "JOIN"]</a>) (<a href='?src=\ref[usr];close_ticket=\ref[ticket]'>CLOSE</a>):</b> [msg]</span>"
 
 	var/admin_number_afk = 0
 
 	for(var/client/X in GLOB.admins)
-		if((R_ADMIN|R_MOD) & X.holder.rights)
+		if((R_ADMIN|R_MOD|R_MENTOR) & X.holder.rights)
 			if(X.is_afk())
 				admin_number_afk++
 			if(X.is_preference_enabled(/datum/client_preference/holder/play_adminhelp_ping))
 				sound_to(X, 'sound/effects/adminhelp.ogg')
-			to_chat(X, msg)
+			if(X.holder.rights == R_MENTOR)
+				to_chat(X, mentor_msg)// Mentors won't see coloring of names on people with special_roles (Antags, etc.)
+			else
+				to_chat(X, msg)
 	//show it to the person adminhelping too
 	to_chat(src, "<font color='blue'>PM to-<b>Staff</b> (<a href='?src=\ref[usr];close_ticket=\ref[ticket]'>CLOSE</a>): [original_msg]</font>")
 	var/admin_number_present = GLOB.admins.len - admin_number_afk
 	log_admin("HELP: [key_name(src)]: [original_msg] - heard by [admin_number_present] non-AFK admins.")
 	if(admin_number_present <= 0)
-		adminmsg2adminirc(src, null, "[html_decode(original_msg)] - !![admin_number_afk ? "All admins AFK ([admin_number_afk])" : "No admins online"]!!")
+		ahelp2discord(src, null, "[html_decode(original_msg)] - !![admin_number_afk ? "All admins AFK ([admin_number_afk])" : "No admins online"]!!")
 	else
-		adminmsg2adminirc(src, null, "[html_decode(original_msg)]")
+		ahelp2discord(src, null, "[html_decode(original_msg)]")
 
 	feedback_add_details("admin_verb","AH") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 	return

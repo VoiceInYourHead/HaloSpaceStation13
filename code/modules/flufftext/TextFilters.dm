@@ -23,41 +23,47 @@ proc/Intoxicated(phrase)
 		newphrase+="[newletter]";counter-=1
 	return newphrase
 
-proc/NewStutter(phrase,stunned)
+// This is prolonged effect, often toggled by prefences
+proc/stammer(phrase)
 	phrase = html_decode(phrase)
-
-	var/list/split_phrase = splittext(phrase," ") //Split it up into words.
-
-	var/list/unstuttered_words = split_phrase.Copy()
-	var/i = rand(1,3)
-	if(stunned) i = split_phrase.len
-	for(,i > 0,i--) //Pick a few words to stutter on.
-
-		if (!unstuttered_words.len)
-			break
-		var/word = pick(unstuttered_words)
-		unstuttered_words -= word //Remove from unstuttered words so we don't stutter it again.
-		var/index = split_phrase.Find(word) //Find the word in the split phrase so we can replace it.
-
-		//Search for dipthongs (two letters that make one sound.)
-		var/first_sound = copytext(word,1,3)
-		var/first_letter = copytext(word,1,2)
-		if(lowertext(first_sound) in list("ch","th","sh"))
-			first_letter = first_sound
-
-		//Repeat the first letter to create a stutter.
-		var/rnum = rand(1,3)
-		switch(rnum)
-			if(1)
-				word = "[first_letter]-[word]"
-			if(2)
-				word = "[first_letter]-[first_letter]-[word]"
-			if(3)
-				word = "[first_letter]-[word]"
-
-		split_phrase[index] = word
-
-	return sanitize(jointext(split_phrase," "))
+	var/list/vowels = list(
+		"ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½",
+		"a", "e", "i", "o", "u"
+		)
+	var/list/consonants = list(
+		"ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½",
+		"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "x", "z", "w", "y"
+		)
+	var/list/letters = vowels + consonants + "ï¿½" + "ï¿½"
+	var/stoppers = list(
+		"ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½", "ï¿½",
+		"b", "d", "g", "j", "k", "p", "t", "x"
+		)
+	var/new_phrase = ""
+	var/index_in_word = 0
+	var/last_char = ""
+	for(var/i = 1, i <= length_char(phrase), i++)
+		var/char = copytext_char(phrase, i, i + 1)
+		var/current_char = lowertext(char)
+		if(current_char in letters)
+			index_in_word++
+		else
+			index_in_word = 0
+		if(index_in_word == 2 && prob(40) && (last_char in consonants))
+			var/passage = ""
+			if(current_char in vowels)
+				if((last_char in stoppers) && prob(50))
+					passage = "-[last_char]"
+				else
+					passage = "[current_char]-[last_char]"
+			else if(last_char in stoppers)
+				passage = "-[last_char]"
+			do
+				new_phrase += passage
+			while(prob(25))
+		last_char = current_char
+		new_phrase += char
+	return html_encode(new_phrase)
 
 proc/Stagger(mob/M,d) //Technically not a filter, but it relates to drunkenness.
 	step(M, pick(d,turn(d,90),turn(d,-90)))
@@ -66,9 +72,8 @@ proc/Ellipsis(original_msg, chance = 50)
 	if(chance <= 0) return "..."
 	if(chance >= 100) return original_msg
 
-	var/list
-		words = splittext(original_msg," ")
-		new_words = list()
+	var/list/words = splittext(original_msg, " ")
+	var/list/new_words = list()
 
 	var/new_msg = ""
 
@@ -90,8 +95,9 @@ distortion_speed - multiplier for the chance increase.
 distortion - starting distortion.
 english_only - whether to use traditional english letters only (for use in NanoUI)
 */
-proc/RadioChat(mob/living/user, message, distortion_chance = 60, distortion_speed = 1, distortion = 1, english_only = 0, var/datum/language/language)
-	if(user && !language)
+proc/RadioChat(mob/living/user, message, distortion_chance = 60, distortion_speed = 1, distortion = 1, english_only = 0)
+	var/datum/language/language
+	if(user)
 		language = user.get_default_language()
 	message = html_decode(message)
 	var/new_message = ""
@@ -106,72 +112,94 @@ proc/RadioChat(mob/living/user, message, distortion_chance = 60, distortion_spee
 			length += 1
 			continue
 		if(newletter != " ")
-			switch(pickweight(list("A" = 0.5, "B" = 1, "C" = 0.5, "D" = 2, "E" = 1, "F" = 1, "G" = 2)))
-				if("A") // Major cutout
+			if(prob(0.08 * distortion)) // Major cutout
+				newletter = "*zzzt*"
+				length += rand(1, (length(message) - length)) // Skip some characters
+				distortion += 1 * distortion_speed
+			else if(prob(0.8 * distortion)) // Minor cut out
+				if(prob(25))
+					newletter = ".."
+				else if(prob(25))
+					newletter = " "
+				else
 					newletter = ""
-					var/chars_skipped = rand(1, (length(message) - length))
-					chars_skipped = min(chars_skipped, 5)
-					length += chars_skipped // Skip some characters
-					while(chars_skipped > 0)
-						newletter += "_"
-						chars_skipped--
-					distortion += 1 * distortion_speed
-				if("B") // Minor cut out
-					if(prob(25))
-						newletter = ".."
-					else if(prob(25))
-						newletter = " "
+				distortion += 0.25 * distortion_speed
+			else if(prob(2 * distortion)) // Mishearing
+				if(language && language.syllables && prob(50))
+					newletter = pick(language.syllables)
+				else
+					newletter =	pick("a","e","i","o","u")
+				distortion += 0.25 * distortion_speed
+			else if(prob(1.5 * distortion)) // Mishearing
+				if(language && prob(50))
+					if(language.syllables)
+						newletter = pick (language.syllables)
 					else
-						newletter = ""
-					distortion += 0.25 * distortion_speed
-				if("C") // Mishearing
-					if(language && language.syllables && prob(50))
-						newletter = pick(language.syllables)
+						newletter = "*"
+				else
+					if(english_only)
+						newletter += "*"
 					else
-						newletter =	pick("a","e","i","o","u")
-					distortion += 0.25 * distortion_speed
-				if("D") // Mishearing
-					if(language && prob(50))
-						if(language.syllables)
-							newletter = pick (language.syllables)
-						else
-							newletter = "*"
-					else
-						if(english_only)
-							newletter += "*"
-						else
-							newletter = pick("ø", "Ð", "%", "æ", "µ")
-					distortion += 0.5 * distortion_speed
-				if("E") // Incomprehensible
-					newletter = pick("<", ">", "!", "$", "%", "^", "&", "*", "~", "#")
-					distortion += 0.75 * distortion_speed
-				if("F") // Total cut out
-					if(!english_only)
-						newletter = "¦w¡¼b»%> -BZZT-"
-					else
-						newletter = "srgt%$hjc< -BZZT-"
-					new_message += newletter
-					break
-				else // Sound distortion. Still recognisable, mostly.
-					switch(lowertext(newletter))
-						if("s")
-							newletter = "$"
-						if("e")
-							newletter = "€"
-						if("w")
-							newletter = "ø"
-						if("y")
-							newletter = "¡"
-						if("x")
-							newletter = "æ"
-						if("u")
-							newletter = "µ"
+						newletter = pick("ï¿½", "ï¿½", "%", "ï¿½", "ï¿½")
+				distortion += 0.5 * distortion_speed
+			else if(prob(0.75 * distortion)) // Incomprehensible
+				newletter = pick("<", ">", "!", "$", "%", "^", "&", "*", "~", "#")
+				distortion += 0.75 * distortion_speed
+			else if(prob(0.05 * distortion)) // Total cut out
+				if(!english_only)
+					newletter = "ï¿½wï¿½ï¿½bï¿½%> -BZZT-"
+				else
+					newletter = "srgt%$hjc< -BZZT-"
+				new_message += newletter
+				break
+			else if(prob(2.5 * distortion)) // Sound distortion. Still recognisable, mostly.
+				switch(lowertext(newletter))
+					if("s")
+						newletter = "$"
+					if("e")
+						newletter = "ï¿½"
+					if("w")
+						newletter = "ï¿½"
+					if("y")
+						newletter = "ï¿½"
+					if("x")
+						newletter = "ï¿½"
+					if("u")
+						newletter = "ï¿½"
 		else
-			newletter = " *crackle* "
-			distortion += 0.25 * distortion_speed
+			if(prob(0.2 * distortion))
+				newletter = " *crackle* "
+				distortion += 0.25 * distortion_speed
 		if(prob(20))
 			capitalize(newletter)
 		new_message += newletter
 		length += 1
 	return new_message
 
+// This is prolonged effect, often toggled by prefences
+proc/burr(phrase)
+	phrase = html_decode(phrase)
+	var/new_phrase = ""
+	for(var/i = 1, i <= length_char(phrase), i++)
+		var/letter = copytext_char(phrase, i, i + 1)
+		if(letter == "ï¿½")
+			letter = pick("ï¿½", "pï¿½", "'ï¿½", "p'ï¿½")
+		else if(letter == "ï¿½")
+			letter = pick("ï¿½", "Pï¿½", "'ï¿½", "P'ï¿½")
+		new_phrase += letter
+	return html_encode(new_phrase)
+
+// This is prolonged effect, often toggled by prefences
+proc/lisp(phrase)
+	phrase = html_decode(phrase)
+	var/list/hissing = list("ï¿½", "ï¿½", "ï¿½", "ï¿½")
+	var/new_phrase = ""
+	for(var/i = 1, i <= length_char(phrase), i++)
+		var/letter = copytext_char(phrase, i, i + 1)
+		if(lowertext(letter) in hissing)
+			if(lowertext(letter) == letter)
+				letter = "ï¿½"
+			else
+				letter = "ï¿½"
+		new_phrase += letter
+	return html_encode(new_phrase)
