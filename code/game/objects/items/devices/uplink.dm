@@ -182,7 +182,7 @@
 			if(item.can_view(src))
 				var/cost = item.cost(uses, src)
 				if(!cost) cost = "???"
-				items[++items.len] = list("name" = item.name(), "description" = replacetext_char(item.description(), "\n", "<br>"), "can_buy" = item.can_buy(src), "cost" = cost, "ref" = "\ref[item]")
+				items[++items.len] = list("name" = item.name(), "description" = replacetext(item.description(), "\n", "<br>"), "can_buy" = item.can_buy(src), "cost" = cost, "ref" = "\ref[item]")
 		nanoui_data["items"] = items
 	else if(nanoui_menu == 2)
 		var/permanentData[0]
@@ -198,7 +198,7 @@
 								 // We trade off being able to automatically add shit for more control over what gets passed to json
 								 // and if it's sanitized for html.
 				nanoui_data["exploit"]["nanoui_exploit_record"] = html_encode(L.fields["exploit_record"])                         		// Change stuff into html
-				nanoui_data["exploit"]["nanoui_exploit_record"] = replacetext_char(nanoui_data["exploit"]["nanoui_exploit_record"], "\n", "<br>")    // change line breaks into <br>
+				nanoui_data["exploit"]["nanoui_exploit_record"] = replacetext(nanoui_data["exploit"]["nanoui_exploit_record"], "\n", "<br>")    // change line breaks into <br>
 				nanoui_data["exploit"]["name"] =  html_encode(L.fields["name"])
 				nanoui_data["exploit"]["sex"] =  html_encode(L.fields["sex"])
 				nanoui_data["exploit"]["age"] =  html_encode(L.fields["age"])

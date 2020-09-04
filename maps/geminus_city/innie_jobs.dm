@@ -8,7 +8,7 @@
 	generate_email = 1
 	account_allowed = 1
 	access = list(access_innie)
-	outfit_type = /decl/hierarchy/outfit/job/colonist/geminus_innie
+	outfit_type = /decl/hierarchy/outfit/job/geminus_innie
 	selection_color = "#ff0000"
 	spawnpoint_override = "Geminus Innie"
 	alt_titles = list(\

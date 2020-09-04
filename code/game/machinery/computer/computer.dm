@@ -88,7 +88,7 @@
 
 /obj/machinery/computer/proc/decode(text)
 	// Adds line breaks
-	text = replacetext_char(text, "\n", "<BR>")
+	text = replacetext(text, "\n", "<BR>")
 	return text
 
 /obj/machinery/computer/attackby(I as obj, user as mob)

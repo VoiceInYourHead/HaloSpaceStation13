@@ -74,7 +74,7 @@
 	if(!forceshow && istype(user,/mob/living/silicon/ai))
 		var/mob/living/silicon/ai/AI = user
 		can_read = get_dist(src, AI.camera) < 2
-	user << browse("<HTML><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[can_read ? info : stars(info)][stamps]</BODY></HTML>", "window=[name]")
+	user << browse("<HTML><meta charset=\"utf-8\"><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[can_read ? info : stars(info)][stamps]</BODY></HTML>", "window=[name]")
 	onclose(user, "[name]")
 
 /obj/item/weapon/paper/verb/rename()
@@ -162,12 +162,12 @@
 			break
 
 	if(links)
-		var/before = copytext_char(info_links, 1, textindex)
-		var/after = copytext_char(info_links, textindex)
+		var/before = copytext(info_links, 1, textindex)
+		var/after = copytext(info_links, textindex)
 		info_links = before + text + after
 	else
-		var/before = copytext_char(info, 1, textindex)
-		var/after = copytext_char(info, textindex)
+		var/before = copytext(info, 1, textindex)
+		var/after = copytext(info, textindex)
 		info = before + text + after
 		updateinfolinks()
 
@@ -198,20 +198,20 @@
 		return ""
 
 	if(findtext(t, "\[sign\]"))
-		t = replacetext_char(t, "\[sign\]", "<font face=\"[signfont]\"><i>[get_signature(P, user)]</i></font>")
+		t = replacetext(t, "\[sign\]", "<font face=\"[signfont]\"><i>[get_signature(P, user)]</i></font>")
 
 	if(iscrayon) // If it is a crayon, and he still tries to use these, make them empty!
-		t = replacetext_char(t, "\[*\]", "")
-		t = replacetext_char(t, "\[hr\]", "")
-		t = replacetext_char(t, "\[small\]", "")
-		t = replacetext_char(t, "\[/small\]", "")
-		t = replacetext_char(t, "\[list\]", "")
-		t = replacetext_char(t, "\[/list\]", "")
-		t = replacetext_char(t, "\[table\]", "")
-		t = replacetext_char(t, "\[/table\]", "")
-		t = replacetext_char(t, "\[row\]", "")
-		t = replacetext_char(t, "\[cell\]", "")
-		t = replacetext_char(t, "\[logo\]", "")
+		t = replacetext(t, "\[*\]", "")
+		t = replacetext(t, "\[hr\]", "")
+		t = replacetext(t, "\[small\]", "")
+		t = replacetext(t, "\[/small\]", "")
+		t = replacetext(t, "\[list\]", "")
+		t = replacetext(t, "\[/list\]", "")
+		t = replacetext(t, "\[table\]", "")
+		t = replacetext(t, "\[/table\]", "")
+		t = replacetext(t, "\[row\]", "")
+		t = replacetext(t, "\[cell\]", "")
+		t = replacetext(t, "\[logo\]", "")
 
 	if(iscrayon)
 		t = "<font face=\"[crayonfont]\" color=[P ? P.colour : "black"]><b>[t]</b></font>"
@@ -314,7 +314,7 @@
 
 		update_space(t)
 
-		usr << browse("<HTML><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[info_links][stamps]</BODY></HTML>", "window=[name]") // Update the window
+		usr << browse("<HTML><meta charset=\"utf-8\"><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[info_links][stamps]</BODY></HTML>", "window=[name]") // Update the window
 
 		update_icon()
 
@@ -364,7 +364,7 @@
 		if ( istype(RP) && RP.mode == 2 )
 			RP.RenamePaper(user,src)
 		else
-			user << browse("<HTML><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[info_links][stamps]</BODY></HTML>", "window=[name]")
+			user << browse("<HTML><meta charset=\"utf-8\"><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[info_links][stamps]</BODY></HTML>", "window=[name]")
 		return
 
 	else if(istype(P, /obj/item/weapon/stamp) || istype(P, /obj/item/clothing/ring/seal))

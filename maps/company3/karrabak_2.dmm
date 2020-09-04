@@ -1,0 +1,332 @@
+"aa" = (/turf/unsimulated/mineral,/area/planets/helllanding/lvl2)
+"ab" = (/turf/simulated/wall/covenant,/area/planets/helllanding/lvl2)
+"ac" = (/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ad" = (/turf/simulated/open,/area/planets/helllanding/lvl2)
+"ae" = (/turf/simulated/floor/plating,/area/planets/helllanding/lvl2)
+"af" = (/obj/effect/landmark/map_data{name = "Kar'r'abak"},/turf/unsimulated/mineral,/area/planets/helllanding/lvl2)
+"ag" = (/mob/living/simple_animal/hostile/covenant/drone,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ah" = (/obj/structure/destructible/tanktrap,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ai" = (/obj/structure/table/marble,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aj" = (/mob/living/simple_animal/hostile/covenant/drone/ranged,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ak" = (/obj/structure/closet/crate/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"al" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"am" = (/mob/living/simple_animal/hostile/covenant/grunt/major,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"an" = (/obj/structure/barricade,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ao" = (/obj/structure/energybarricade{icon_state = "3"; dir = 8},/mob/living/simple_animal/hostile/covenant/drone/ranged,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ap" = (/obj/structure/bardbedwire,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aq" = (/obj/structure/destructible/tanktrap,/obj/structure/bardbedwire,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ar" = (/obj/structure/destructible/covenant_barricade{icon_state = "covenant_barricade"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"as" = (/obj/structure/closet/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"at" = (/obj/structure/energybarricade,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"au" = (/mob/living/simple_animal/hostile/covenant/jackal/shield,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"av" = (/mob/living/simple_animal/hostile/covenant/elite/major,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aw" = (/obj/machinery/door/airlock/multi_tile/covenant/three{icon_state = "closed"; dir = 8},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ax" = (/mob/living/simple_animal/hostile/covenant/jackal/shield,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ay" = (/obj/structure/energybarricade{icon_state = "3"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"az" = (/mob/living/simple_animal/hostile/covenant/grunt,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aA" = (/obj/structure/destructible/tanktrap,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aB" = (/obj/structure/energybarricade{icon_state = "3"; dir = 4},/mob/living/simple_animal/hostile/covenant/grunt,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aC" = (/obj/machinery/door/airlock/multi_tile/covenant/three,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aD" = (/mob/living/simple_animal/hostile/covenant/grunt/ultra,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aE" = (/obj/structure/closet/crate/covenant,/obj/item/ammo_magazine/boltshot_sg,/obj/item/ammo_magazine/boltshot_sg,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aF" = (/obj/structure/closet/covenant,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aG" = (/obj/structure/repair_bench/cov,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aH" = (/obj/structure/weapon_rack,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aI" = (/obj/structure/energybarricade{icon_state = "3"; dir = 1},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aJ" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aK" = (/mob/living/simple_animal/hostile/covenant/grunt/heavy,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aL" = (/obj/structure/table/rack,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aM" = (/obj/structure/destructible/covenant_barricade{icon_state = "covenant_barricade"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aN" = (/mob/living/simple_animal/hostile/covenant/elite,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aO" = (/obj/structure/bed/chair/covenant_stool,/mob/living/simple_animal/hostile/covenant/grunt/major,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aP" = (/obj/structure/energybarricade{icon_state = "3"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aQ" = (/obj/machinery/door/airlock/multi_tile/covenant/three,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aR" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aS" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aT" = (/obj/structure/weapon_rack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aU" = (/obj/machinery/iv_drip/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aV" = (/obj/structure/mirror{pixel_y = 32},/obj/structure/closet/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aW" = (/obj/structure/closet/crate/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aX" = (/obj/structure/table/marble,/obj/item/ammo_magazine/mauler,/obj/item/ammo_magazine/mauler,/obj/item/weapon/gun/projectile/needler,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"aY" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"aZ" = (/mob/living/simple_animal/hostile/covenant/drone/ranged,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ba" = (/obj/machinery/autosurgeon/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bb" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 8},/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bc" = (/obj/structure/destructible/covenant_barricade,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bd" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"be" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 8},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bf" = (/mob/living/simple_animal/hostile/covenant/grunt/heavy,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bg" = (/obj/structure/repair_bench/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bh" = (/obj/structure/table/marble,/obj/item/weapon/grenade/plasma,/obj/item/weapon/grenade/plasma,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bi" = (/mob/living/simple_animal/hostile/covenant/elite/zealot,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bj" = (/obj/payload/covenant{free_explode = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bk" = (/mob/living/simple_animal/hostile/covenant/drone,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bl" = (/obj/machinery/door/airlock/multi_tile/covenant/three{icon_state = "closed"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bm" = (/mob/living/simple_animal/hostile/covenant/grunt/ultra,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bn" = (/obj/structure/stairs_decorative/north,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bo" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 8},/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bp" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bq" = (/obj/structure/closet/crate/covenant,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"br" = (/mob/living/simple_animal/hostile/covenant/grunt,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bs" = (/mob/living/simple_animal/hostile/covenant/elite/ultra,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bt" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 8},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bu" = (/obj/structure/memorial_dabdab,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bv" = (/obj/structure/bed/chair/covenant{icon_state = "coviechair_preview"; dir = 8},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bw" = (/mob/living/simple_animal/hostile/covenant/elite/ultra,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bx" = (/obj/structure/energybarricade,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"by" = (/obj/structure/closet/crate/covenant,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bz" = (/obj/structure/closet/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bA" = (/obj/structure/barricade,/obj/structure/bardbedwire,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bB" = (/obj/structure/memorial_valmoric,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bC" = (/mob/living/simple_animal/hostile/covenant/grunt/major,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bD" = (/mob/living/simple_animal/hostile/covenant/elite,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bE" = (/obj/structure/table/marble,/obj/item/weapon/gun/projectile/type31needlerifle,/obj/item/weapon/gun/projectile/type31needlerifle,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bF" = (/obj/structure/stairs_decorative/south,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bG" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 8},/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bH" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bI" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bJ" = (/mob/living/simple_animal/hostile/covenant/jackal,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bK" = (/obj/structure/destructible/covenant_barricade,/obj/structure/bardbedwire,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bL" = (/obj/structure/table/marble,/obj/machinery/button/alternate{id = "22"},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bM" = (/obj/structure/grille,/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{icon_state = "window"; dir = 1},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bN" = (/obj/structure/rearm_repair_station/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bO" = (/obj/structure/closet/crate/covenant,/obj/item/weapon/gun/projectile/type51carbine,/obj/item/weapon/gun/projectile/type51carbine,/obj/item/weapon/gun/projectile/type51carbine,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bP" = (/obj/structure/table/rack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bQ" = (/obj/vehicles/air/overmap/spirit_dropship,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bR" = (/obj/machinery/door/blast/regular/quadruple{id = "22"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bS" = (/obj/structure/lattice,/turf/simulated/open,/area/planets/helllanding/lvl2)
+"bT" = (/obj/vehicles/air/overmap/spirit_dropship{icon_state = "base"; dir = 4},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bU" = (/obj/structure/electric_fence,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bV" = (/obj/structure/table/marble,/obj/item/ammo_magazine/boltshot_sg,/obj/item/ammo_magazine/boltshot_sg,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bW" = (/obj/structure/barricade,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bX" = (/obj/structure/ore_box/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"bY" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 8},/obj/machinery/iv_drip/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"bZ" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"ca" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cb" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 4},/obj/structure/closet/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cc" = (/mob/living/simple_animal/hostile/covenant/elite/major,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cd" = (/obj/structure/destructible/covenant_barricade{icon_state = "covenant_barricade"; dir = 8},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ce" = (/obj/structure/table/marble,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/mauler,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cf" = (/obj/structure/destructible/plasteel_barricade{icon_state = "barricade"; dir = 8},/obj/structure/destructible/plasteel_barricade,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cg" = (/obj/structure/closet/covenant,/obj/item/weapon/gun/projectile/boltshot/shotgun_preload,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ch" = (/obj/structure/closet/crate/covenant,/obj/item/weapon/gun/projectile/mauler,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ci" = (/obj/structure/energybarricade{icon_state = "3"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cj" = (/obj/structure/energybarricade{icon_state = "3"; dir = 8},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ck" = (/obj/structure/destructible/steel_barricade{icon_state = "barricade2"; dir = 4},/mob/living/simple_animal/hostile/covenant/jackal,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cl" = (/obj/structure/destructible/plasteel_barricade{icon_state = "barricade"; dir = 8},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cm" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 8},/obj/machinery/telecomms_jammers/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cn" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 4},/obj/machinery/iv_drip/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"co" = (/obj/machinery/autosurgeon/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cp" = (/obj/structure/electric_fence{icon_state = "fence"; dir = 4},/obj/structure/ore_box/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/planets/helllanding/lvl2)
+"cq" = (/obj/structure/closet/covenant,/obj/item/weapon/grenade/plasma,/obj/item/weapon/grenade/plasma,/obj/item/weapon/grenade/plasma,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cr" = (/obj/machinery/iv_drip/covenant,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cs" = (/obj/structure/closet/crate/covenant,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"ct" = (/obj/structure/table/marble,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cu" = (/obj/structure/destructible/covenant_barricade{icon_state = "covenant_barricade"; dir = 1},/mob/living/simple_animal/hostile/covenant/grunt/heavy,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cv" = (/obj/structure/destructible/covenant_barricade{icon_state = "covenant_barricade"; dir = 1},/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cw" = (/obj/vehicles/air/overmap/banshee,/turf/simulated/floor/covenant,/area/planets/helllanding/lvl2)
+"cx" = (/obj/structure/ladder/down,/turf/simulated/floor/plating,/area/planets/helllanding/lvl2)
+"cy" = (/turf/simulated/wall/covenant/reinforced,/area/planets/helllanding/lvl2)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacagacacahacacacacacaiaiabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacacacajacacacagacaiabababababababababababababababababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacaiaiacacacakacacacacalalalalalamanalalalalaoalalalalapaqalalalalalalaralalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacasababacatababacauacacalalapalalalabalalalalalalalalalalavalalalalalalalalalalalabamabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacabacacacacabacacacawalalaqalalalalalaxalalayalalazalalalalalalananaAalaparalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacaBacadadacacacacacababababababaCalalababababababababababababababababababababaCalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacaDacacacadadacacacacacabaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalabababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacabacacacacabaiacahabaaaaaaaaabapapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalanabaEacaFaGaHabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasacacababaIaIababaiacacabaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalaJacacacacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaiacacacacacaKaiaLacacasabaaaaaaaaabaMalaMabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabanaNalabaiacacacaiabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaiacacagacacacacacacacaiabaaaaaaaaabamalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalabaHacacaOaiabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaiahacacacacacacacaiaiaiabaaaaaaaaabalalazabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaPalalabaHacacacaLabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababaQacacababababababababaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalaAabaiaRacacasabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaSaTaUaVabalalalabaaaaaaaaaaaaaaaaaaaaaaabaAaxalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaWalalaJacacacacaXabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalaYalalalabaaaaaaaaaaaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalabasacacacaHabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalazalalabaMalaMabaaaaaaaaaaaaaaaaaaaaaaabaZalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalaPabababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaalalaWbbalalalabaaaaaaaaaaaaaaaaaaaaaaabbcalbcabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalaZabababaSaSbdabaSabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalambdbealaNalabaaaaaaaaaaaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbfalalalapalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbgalbhaSabalalalabababababababababababababaCalalabababababababababababababaaaaaaaaaaaaabalalalbiapalalalbjalababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababalalalalalalalananaAalalalamalalalalalalalalalalalalbkayalapalabaaaaaaaaaaaaabalalalalapblalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaqabalalalalalalalalalalalalalalalabalbmalalapalalalalalalalalabaaaaaaaaaaaaabalalalabababalalalabaSabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaxalalblalalalalalazalalalalalalalalalalalalaqalayalalalalalalabaaaaaaaaaaaaabalalalabaaabababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalababaYabababababaQbnbnababbobpababbobpabababababalalalalabaaaaaaaaaaaaabalalbgabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalbkabalalbqaSaSabacacacacaiaiasacacaiacacacacacasababalalaAabaaaaaaaaaaaaabalalaWabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalbbaSalalbdaSabacacacacacacacacauacacacacbracacacabalalavabaaaaaaaaaaaaabbsalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbfalalbtaTalalalaSabbuacacaRacaRacaRacaRacagacaiaiacacaJalalalabaaaaaaaaaaaaabalapapabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalbeaSalalalalabacacacacacacacacacacacacacaibvacacabalalalabaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalabalalalalalabacacacaRacaRbraRacaRacacacaibwacacabapalalabaaaaaaaaaaaaabbxalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabanalalabbyalalalbzabacacacacacacacacacacacacaKaibvacacabanananabaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbAalalaYalalalalaSabbBacacaRacaRacaRacaRacacacaiaiacacaJalalalabaaaaaaaaaaaaabaAalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaZalalabalalalalaTabacbCacacacacacacbDacacacacacacacauabazalalabaaaaaaaaaaaaabalalbxabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalabbEaSaSalalabasaiaiaiacacbFbFbFacacacacacacasababalalalabaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalanababbGbHbIababababbobpababaQacacabababbobpabababanalalalababababababababaCalalababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalaAalalalalalalalalalalalalalalalbJayalalalalalalalalalalaralaSaSaSalalalalalalamabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalabalalalalalalapalalalalalalabalalalalalbJalalalalbdalalalalalabalaSabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalapalalalalblalbfalalaqalalalalayalalalblalalalalalayalapalalalbfalalalbdaSabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababaCalalabababababababababababaCalalabababababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaiakacasasabalalalabaaaaaaaaaaaaaaaaaaabalalbfabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaRacacacacaJalalalabaaaaaaaaaaaaaaaaaaabalalaAabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacacacacabalapapabaaaaaaaaaaaaaaaaaaabazalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabacacaRacacabapapapabaaaaaaaaaaaaaaaaaaabbxalbKabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasbLaiaiacabalalalabaaaaaaaaaaaaaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababbobMbpababaCalalabababababababaaaaaaabalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalaAalalalbkalalalalalaWabababababalalbkabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaWalalalalalalalalalalaxalalalabalalalapalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalababaWalbcalbcalalababalalaYalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabazalababbcalavalalalaAababalalabalalalbJalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalbNalalalalalalalalalbNalazabababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalbOalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabalalalalalalalalalalalalalalalabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacyalalalalalalalalalbzalalalalalcyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacycyalalalalcybPaSaScybQalalalcycyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacyalalalalcycycycycyalalalalcyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacyalalalalcyaaaaaacyalalalalcyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacyalalalalcyaaaaaacyalalalalcyaaaaaaadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaacyalalalalcyaaaaaacyalalalalcyaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadcyalalalalcyaaaaaacyalalalalcyaaadadadadadadadadadadadadadadadaaaaaaadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadcyalalalalcyaaaaaacyalalalalcyaaadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadaaaaadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadcyalalalalcyaaaaaacyalalalalcyaaadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadadadadadadadadadaaaaaaaaaaadadadadadadadadadadadcybRalalalcyaaaaaacybRalalalcyaaadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadcyalalalalcyadadadcyalalalalcyadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadababalalalalalalalalalalalababadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadabacacacacacacacacacacacacacabadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadanacacacacacacacacacacacbSbSaladadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadalacajbTacacacacacacacacacbSaladadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadanacacacauacacacacacacacacacanadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadanacacacacacacacacacacacacacaladadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadababbUbUabacacacacabaYabaYabacacacajabbUbUababadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaHbVaiaGacacabababalalalabababacacbWacbXacabadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadbYacacaRacacacabalalalalalalalabacacacacacacbZadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadcaacacacacacababalabalbxalabalababacacacaDaccbadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaiaRcccdacaYalalceadadadalalalaYaccfacaccgabadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabchacacacacabalalciadadadalalalabacaccjacacabadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabacacacckacaYalalaladadadalalalaYacacclacbrabadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadcmacacacacacababalabaPaSaSabalababacacacacaccnadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadcaacacacacacacabalalalalalalalabaiacbraccoaccpadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabaccqcrasacbWabababalalalabababacaccsacacbWabadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadababbUbUabbWbWbWbCabaYabaYabaictacacabbUbUababadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadalacacacacacacacacacacacacacanadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadalacacacacaccuaccvacacbSbSacanadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadalacacacacacacacacacacbSadacaladadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadanacaccwacbracacbDaccwacacacaladadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadabbSacacacacacacacacacacacacabadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadababalalalalalalalalalalanababadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeadaeaeaeaeadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeadadaeaeaeadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeadadadadadadaeadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeadadadadadadadadadadadadaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeadadadaeaeaeadadadadadadadadaa
+aaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeadadadadadadadadaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaadadadadaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaadadaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaadaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeaeaeaeaeadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeaeaeaeaeadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeaeaeaeaeadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeaecxaeaeadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeaeaeaeaeaeadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaeaeaeaeaeaeaeadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadaeaeaeaeaeaeaeadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadaeaeaeaeaeaeaeadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadaeaeaeaeaeaeaeadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaadaaaaadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+aaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+adadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+adadadadadadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+adadadadadadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadadadadadaaaaaaaaaaadadaaaaaaaaadadadadadadadadadadadadadadadadadadadadaa
+adadadadadadadadadadadadaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadaaaaaaaaadadadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadadaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadadadadaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadaaaaaaaaaa
+adadadadadadadadadadadadadadaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadaaaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadaaadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadaaaaaa
+adadadadadadadadadadadaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadaeaeaeaeadaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaadadadadadadadadadadadadadadadadadadaa
+adadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadadadadadadadadadadadadadadadadaaaa
+adadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaadadadadadadadadadadadadadadadadadadadadaaaa
+aaadadadadadadadadadadaeaeaeaeaeaeadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaadadadadaa
+aaaaaaaaadadadadadaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaadadadaa
+aaaaaaaaadadadadadaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadaaaa
+aaaaaaadadadadadaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadaaaaaa
+aaaaaaaaadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaadadaaaaadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaadadaaadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaadadaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaadadaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaa
+afaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaa
+"}

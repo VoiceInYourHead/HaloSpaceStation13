@@ -553,7 +553,7 @@ var/global/datum/controller/occupations/job_master
 				domain = H.char_branch.email_domain
 			else
 				domain = job.get_email_domain()
-			var/sanitized_name = sanitize(replacetext_char(replacetext_char(lowertext(H.real_name), " ", "."), "'", ""))
+			var/sanitized_name = sanitize(replacetext(replacetext(lowertext(H.real_name), " ", "."), "'", ""))
 			var/complete_login = "[sanitized_name]@[domain]"
 
 			// It is VERY unlikely that we'll have two players, in the same round, with the same name and branch, but still, this is here.
@@ -604,8 +604,8 @@ var/global/datum/controller/occupations/job_master
 			var/value = null
 
 			if(pos)
-				name = copytext_char(job, 1, pos)
-				value = copytext_char(job, pos + 1)
+				name = copytext(job, 1, pos)
+				value = copytext(job, pos + 1)
 			else
 				continue
 

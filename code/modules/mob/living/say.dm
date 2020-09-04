@@ -105,7 +105,7 @@
 	if(!speaking)
 		speaking = parse_language(message)
 		if(speaking)
-			message = copytext_char(message,2+length(speaking.key))
+			message = copytext_char(message,2+length_char(speaking.key))
 		else
 			speaking = get_default_language()
 

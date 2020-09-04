@@ -239,7 +239,7 @@ What a mess.*/
 					return
 				Perp = new/list()
 				t1 = lowertext(t1)
-				var/list/components = splittext_char(t1, " ")
+				var/list/components = splittext(t1, " ")
 				if(components.len > 5)
 					return //Lets not let them search too greedily.
 				for(var/datum/data/record/R in GLOB.data_core.general)

@@ -109,22 +109,13 @@
 	armor_penetration = 50
 	shield_damage = 240
 
-/obj/item/projectile/bullet/covenant/wraith_cannon/New()
-	. = ..()
-	kill_count = get_dist(loc,get_turf(original)) + rand(-dispersion,dispersion)
-
-/obj/item/projectile/bullet/covenant/wraith_cannon/Move(var/newloc,var/dir)
-	if(get_dist(loc,original) > (get_dist(starting,original)/2))
-		change_elevation(1)
-	else
-		change_elevation(-1)
-	. = ..()
-
-/obj/item/projectile/bullet/covenant/wraith_cannon/attack_mob()
-	damage_type = BRUTE
-	damtype = BRUTE
-	return ..()
-
 /obj/item/projectile/bullet/covenant/wraith_cannon/on_impact(var/atom/impacted)
 	explosion(impacted,0,2,2,5,guaranteed_damage = 100,guaranteed_damage_range = 3)
 	. = ..()
+
+/obj/item/projectile/bullet/covenant/wraith_cannon/attack_mob()
+	damage_type = BURN
+	damtype = BURN
+	return ..()
+
+

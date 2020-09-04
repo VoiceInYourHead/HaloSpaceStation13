@@ -118,7 +118,7 @@
 					@param replacestring: 	the string to replace the substring with
 
 		*/
-		interpreter.SetProc("replace", /proc/string_replacetext_char)
+		interpreter.SetProc("replace", /proc/string_replacetext)
 
 		/*
 			-> Locates an element/substring inside of a list or string
@@ -155,7 +155,7 @@
 
 		interpreter.SetProc("pick", /proc/n_pick)
 		interpreter.SetProc("prob", /proc/prob_chance)
-		interpreter.SetProc("substr", /proc/docopytext_char)
+		interpreter.SetProc("substr", /proc/docopytext)
 
 		// Donkie~
 		// Strings

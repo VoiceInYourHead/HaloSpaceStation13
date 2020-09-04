@@ -23,6 +23,8 @@
 	base_state = "red"		// base description and icon_state
 	icon_state = "red1"
 	light_type = /obj/item/weapon/light/tube/large/neon/red
+	brightness_range = 3
+	brightness_power = 6
 
 
 /obj/machinery/light/colored/pink

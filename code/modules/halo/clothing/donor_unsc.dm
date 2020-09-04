@@ -223,6 +223,46 @@
 					/obj/item/clothing/suit/armor/special/spartan/kek4ik
 					)
 
+////egorium////
+
+//Marines and ODST
+
+/obj/item/clothing/head/helmet/marine/egorium
+	name = "Marine Hat"
+	item_state = "egorium-helmet_worn"
+	icon_state = "egorium-helmet_obj"
+	desc = "The standard issue combat hat worn by the members of the UNSC Marine Corps, UNSC Army, and UNSC Air Force."
+
+/obj/item/clothing/suit/storage/marine/egorium
+	item_state = "egorium-armor_worn"
+	icon_state = "egorium-armor_obj"
+
+/obj/item/clothing/under/unsc/marine_fatigues/egorium
+	desc = "Standard issue uniform for UNSC Marine Corps."
+	name = "UNSC Marine fatigues"
+	item_state = "egorium-uniform"
+	icon_state = "egorium_obj"
+	worn_state = "egorium-uniform"
+
+
+/obj/item/weapon/storage/box/large/donator/egorium
+	startswith = list(/obj/item/clothing/head/helmet/marine/egorium,
+					/obj/item/clothing/suit/storage/marine/egorium,
+					/obj/item/clothing/under/unsc/marine_fatigues/egorium
+					)
+	can_hold = list(/obj/item/clothing/head/helmet/marine/egorium,
+					/obj/item/clothing/suit/storage/marine/egorium,
+					/obj/item/clothing/under/unsc/marine_fatigues/egorium
+					)
+
+/obj/item/weapon/storage/box/large/donator/egorium/odst
+	startswith = list(/obj/item/clothing/head/helmet/marine/egorium,
+					/obj/item/clothing/under/unsc/marine_fatigues/egorium
+					)
+	can_hold = list(/obj/item/clothing/head/helmet/marine/egorium,
+					/obj/item/clothing/under/unsc/marine_fatigues/egorium
+					)
+
 ////////BurnedSweetPotato\\\\\\\\
 
 //Spartan

@@ -167,7 +167,7 @@
 		name = "URF [name]"
 
 /obj/effect/overmap/ship/npc_ship/combat/innie/pick_ship_icon()
-	if(!findlasttext_char(name,"URF"))
+	if(!findtextEx(name,"URF"))
 		. = ..()
 
 /obj/effect/overmap/ship/npc_ship/combat/innie/medium_armed

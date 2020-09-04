@@ -66,7 +66,7 @@
 	return 0
 
 /mob/proc/say_quote(var/message, var/datum/language/speaking = null)
-	var/ending = copytext_char(message, length(message))
+	var/ending = copytext(message, length(message))
 	if(speaking)
 		return speaking.get_spoken_verb(ending)
 
@@ -87,7 +87,7 @@
 	return get_turf(src)
 
 /mob/proc/say_test(var/text)
-	var/ending = copytext_char(text, length(text))
+	var/ending = copytext_char(text, length_char(text))
 	if (ending == "?")
 		return "1"
 	else if (ending == "!")
@@ -98,10 +98,10 @@
 //returns the message mode string or null for no message mode.
 //2020 update: only returns the letter hotkey or ;
 /mob/proc/parse_message_mode(var/message)
-	if(length(message) >= 1 && copytext_char(message,1,2) == ";")
+	if(length(message) >= 1 && copytext(message,1,2) == ";")
 		return ";"
 
-	if(length(message) >= 2 && (copytext_char(message,1,2) == ":" || copytext_char(message,1,2) == "."))
+	if(length_char(message) >= 2 && (copytext_char(message,1,2) == ":" || copytext(message,1,2) == "."))
 		var/channel_prefix = copytext_char(message, 2 ,3)
 		//finally the channel hotkeys arent duplicated for uppercase/lowercase... goodbye 2011 hello 2020
 		return lowertext(channel_prefix)//department_radio_keys[channel_prefix]

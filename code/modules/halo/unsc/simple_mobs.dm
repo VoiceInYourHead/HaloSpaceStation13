@@ -4,7 +4,7 @@
 	faction = "UNSC"
 	health = 100
 	maxHealth = 100
-	break_stuff_probability = 50
+	break_stuff_probability = 0
 	icon = 'code/modules/halo/unsc/simple_mobs.dmi'
 	combat_tier = 1
 	assault_target_type = /obj/effect/landmark/assault_target/unsc

@@ -109,9 +109,9 @@
 			cloneloss = "minor"
 		var/scan = medical_scan_results(occupant)
 		scan += "<br><br>Genetic degradation: [cloneloss]"
-		scan = replacetext_char(scan,"'notice'","'white'")
-		scan = replacetext_char(scan,"'warning'","'average'")
-		scan = replacetext_char(scan,"'danger'","'bad'")
+		scan = replacetext(scan,"'notice'","'white'")
+		scan = replacetext(scan,"'warning'","'average'")
+		scan = replacetext(scan,"'danger'","'bad'")
 		data["occupant"] = scan
 
 	data["cellTemperature"] = round(air_contents.temperature)

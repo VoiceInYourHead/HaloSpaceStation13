@@ -91,7 +91,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	if(capture_npc_spawnlocs.len == 0)
 		for(var/i = 0,i < FALLBACK_MOBSPAWN_AMOUNT,i++)
 			var/to_spawn = pickweight(defenders_spawn)
-			new to_spawn (pick(view(7,src)))
+			new to_spawn (pick(view(0,src)))
 		return
 	for(var/turf/t in capture_npc_spawnlocs)
 		var/to_spawn = pick(defenders_spawn)

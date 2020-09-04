@@ -11,8 +11,6 @@
 
 	map_bounds = list(24,98,115,52)// Format: "location" = list(TOP_LEFT_X,TOP_LEFT_Y,BOTTOM_RIGHT_X,BOTTOM_RIGHT_Y)
 
-	overmap_spawn_near_me = list(/obj/effect/overmap/ship/unsc_odp_cassius)
-
 	parent_area_type = /area/destroyer/unsclightbrigade
 
 	ship_max_speed = SHIP_DEFAULT_PIXEL_SPEED - 1

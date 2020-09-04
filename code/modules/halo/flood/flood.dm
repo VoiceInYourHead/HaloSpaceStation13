@@ -43,7 +43,7 @@ GLOBAL_LIST_EMPTY(live_flood_simplemobs)
 	mob_swap_flags = MONKEY|SLIME|SIMPLE_ANIMAL
 	mob_push_flags = MONKEY|SLIME|SIMPLE_ANIMAL
 	*/
-	break_stuff_probability = 50
+	break_stuff_probability = 0
 	stop_automated_movement = 0
 	wander = 1
 	melee_damage_lower = 5

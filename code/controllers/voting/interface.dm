@@ -9,7 +9,7 @@
 
 	. += "<a href='?src=\ref[vote];vote_controller=1'>(return to main panel)</a>"
 
-	. = "<html><head><title>[capitalize(name)] Voting Panel</title></head><body>"
+	. = "<html><meta charset=\"utf-8\"><head><title>[capitalize(name)] Voting Panel</title></head><body>"
 	if(question)
 		. += "<h2>[question]</h2>"
 	else

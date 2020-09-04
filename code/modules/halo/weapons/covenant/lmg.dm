@@ -23,9 +23,9 @@
 	salvage_components = list(/obj/item/plasma_core)
 	slowdown_general = 1
 	firemodes = list(
-		list(mode_name="10-round bursts", burst=10, fire_delay=null, move_delay=6,    burst_accuracy=list(0,-1,1),       dispersion=list(0.0, 0.6, 0.6)),
-		list(mode_name="short bursts", 	burst=4, fire_delay=null, move_delay=6,    burst_accuracy=list(2,1,-1,-2,3), dispersion=list(0.6, 1.0, 1.5, 1.5, 1.9)),
-		list(mode_name="semi-auto", 	burst=1, fire_delay=null, move_delay=6,    burst_accuracy=list(1), dispersion=list(0.0)),
+		list(mode_name="6-round bursts", burst=6, fire_delay=null, move_delay=8,    burst_accuracy=list(0,-1,1),       dispersion=list(0.0, 0.6, 0.6)),
+		list(mode_name="short bursts", 	burst=4, fire_delay=null, move_delay=5,    burst_accuracy=list(2,1,-1,-2,3), dispersion=list(0.6, 1.0, 1.5, 1.5, 1.9)),
+		list(mode_name="semi-auto", 	burst=1, fire_delay=null, move_delay=2,    burst_accuracy=list(1), dispersion=list(0.0)),
 		)
 
 	//Due to reverse acc. and disp. profile, this might be more powerful than the others.//

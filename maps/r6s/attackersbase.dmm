@@ -1,0 +1,98 @@
+"aa" = (/turf/unsimulated/wall,/area/space)
+"ab" = (/turf/unsimulated/wall,/area/planets/attackershouse)
+"ac" = (/turf/simulated/wall/r_wall,/area/planets/attackershouse)
+"ad" = (/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"ae" = (/obj/machinery/power/breakerbox/activated,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"af" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"ag" = (/obj/structure/table/glass,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ah" = (/obj/structure/reagent_dispensers/water_cooler,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ai" = (/obj/structure/table/glass,/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aj" = (/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ak" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"al" = (/turf/simulated/wall,/area/planets/attackershouse)
+"am" = (/obj/machinery/vending/cigarette,/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"an" = (/obj/structure/largecrate/animal/corgi,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ao" = (/obj/structure/largecrate/animal/chick,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ap" = (/obj/structure/sink{dir = 8; icon_state = "sink"; pixel_x = -14; pixel_y = 0},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aq" = (/obj/structure/table/rack,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ar" = (/obj/structure/table/rack,/obj/item/weapon/armor_patch,/obj/item/weapon/armor_patch,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"as" = (/obj/machinery/autolathe/ammo_fabricator,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"at" = (/obj/structure/girder,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"au" = (/obj/structure/closet/crate/large,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"av" = (/mob/living/simple_animal/cat/fluff/walaski,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aw" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/landmark/start/attackers,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ax" = (/obj/structure/largecrate/animal/cat/bones,/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ay" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"az" = (/obj/structure/bed/chair/office/light,/obj/effect/landmark/start/attackers,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aA" = (/obj/machinery/vending/armory/attachment{req_access = newlist()},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aB" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aC" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/storage/briefcase/colossuscase,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"aD" = (/obj/machinery/vending/sovietsoda,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aE" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aF" = (/obj/structure/largecrate/animal/cat,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aG" = (/obj/structure/closet/crate/large,/obj/item/instrument/guitar,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aH" = (/obj/structure/table/rack,/obj/item/weapon/weldpack,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aI" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/plastique,/obj/item/weapon/plastique,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"aJ" = (/obj/machinery/vending/cola,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aK" = (/obj/structure/table/steel_reinforced,/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/item/weapon/storage/box/syndie_kit/spy,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aL" = (/obj/structure/sofa/right{tag = "icon-sofaend_right (WEST)"; icon_state = "sofaend_right"; dir = 8},/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/effect/landmark/start/attackers,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aM" = (/obj/structure/bookcase{name = "bookcase (Fiction)"},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aN" = (/obj/structure/bed/chair/office/light{tag = "icon-officechair_white_preview (EAST)"; icon_state = "officechair_white_preview"; dir = 4},/obj/effect/landmark/start/attackers,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aO" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/grenade/flashbang,/obj/item/weapon/grenade/flashbang,/obj/item/weapon/grenade/flashbang,/obj/item/weapon/grenade/flashbang,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aP" = (/obj/structure/sofa{tag = "icon-sofamiddle (WEST)"; icon_state = "sofamiddle"; dir = 8},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aQ" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/airlock_brace,/obj/item/weapon/airlock_brace,/obj/item/weapon/airlock_brace,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"aR" = (/obj/structure/barricade,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aS" = (/obj/structure/bookcase{name = "bookcase (Non-Fiction)"},/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aT" = (/obj/structure/bookcase/manuals/engineering,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aU" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aV" = (/obj/structure/sofa/left{tag = "icon-sofaend_left (WEST)"; icon_state = "sofaend_left"; dir = 8},/obj/effect/landmark/start/attackers,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aW" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"aX" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/gun/projectile/ma5b_ar/training,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"aY" = (/obj/structure/target_stake,/obj/item/target/syndicate,/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"aZ" = (/obj/structure/skele_stand,/turf/simulated/floor/tiled,/area/planets/attackershouse)
+"ba" = (/obj/effect/landmark/map_data{name = "Attackers Base"},/obj/effect/overmap/sector/r6s/base,/turf/unsimulated/wall,/area/space)
+"bb" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+"bc" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/dark,/area/planets/attackershouse)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabacacacacacacacacacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabacacbbadadadadbbacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabacadadadadadadadadacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabacaeadafadadaCadaeacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabacadadadadadadadadacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabababacacaIadadadadakacacabababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacacacacakadadadadaQacacacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacagahaiajajajajajajamanaoacababababababababaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajajajajajajajajajajajacacacacacacacacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacapajacacaqarajasacacajajacacadadadadacacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajacacauavajawacacajaxaXadadaladaYbcacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajayazajajajajaAaBajajakadadadadadadacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajaDajajajajajajajajajakadadatadaYadacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajaEajajajajajajajajajakadadatadaYadacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajaBaFajajajajaGaHajajakadadadadadadacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajacacaJajajaKacacajaLaXadadacadaYbcacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajaMacacajajaNaOacacajaPacacadadadadacacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajaRaSaTajajajajaUajajaVacacacacacacacacabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacajajaWajajajajajajaWajaZacababababababababaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaabacacacacacacacacacacacacacacabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaababababababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

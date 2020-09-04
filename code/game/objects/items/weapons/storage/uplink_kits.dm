@@ -82,7 +82,7 @@
 	desc = "For when you want to conduct voyeurism from afar."
 	startswith = list(
 		/obj/item/device/spy_bug = 6,
-		/obj/item/device/spy_monitor
+		/obj/item/device/spy_monitor = 6,
 	)
 
 /obj/item/weapon/storage/box/syndie_kit/g9mm

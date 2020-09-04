@@ -24,6 +24,7 @@
 	name = "acog sight"
 	desc = "An ACOG which provides an increase in accuracy, resulting in a tighter grouping of consecutive shots."
 	icon_state = "acog-scope-obj"
+	zoom_amount = 1.1
 
 /obj/item/weapon_attachment/sight/br55_scope
 	name = "BR55 scope"

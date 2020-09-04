@@ -2,7 +2,7 @@
 /datum/admins/proc/player_panel_new()//The new one
 	if (!usr.client.holder)
 		return
-	var/dat = "<html><head><title>Admin Player Panel</title></head>"
+	var/dat = "<html><meta charset=\"utf-8\"><head><title>Admin Player Panel</title></head>"
 
 	//javascript, the part that does most of the work~
 	dat += {"
@@ -269,23 +269,23 @@
 			else
 				M_job = "Unknown ([M.type])"
 
-			M_job = replacetext_char(M_job, "'", "")
-			M_job = replacetext_char(M_job, "\"", "")
-			M_job = replacetext_char(M_job, "\\", "")
+			M_job = replacetext(M_job, "'", "")
+			M_job = replacetext(M_job, "\"", "")
+			M_job = replacetext(M_job, "\\", "")
 
 			var/M_name = M.name
-			M_name = replacetext_char(M_name, "'", "")
-			M_name = replacetext_char(M_name, "\"", "")
-			M_name = replacetext_char(M_name, "\\", "")
+			M_name = replacetext(M_name, "'", "")
+			M_name = replacetext(M_name, "\"", "")
+			M_name = replacetext(M_name, "\\", "")
 			var/M_rname = M.real_name
-			M_rname = replacetext_char(M_rname, "'", "")
-			M_rname = replacetext_char(M_rname, "\"", "")
-			M_rname = replacetext_char(M_rname, "\\", "")
+			M_rname = replacetext(M_rname, "'", "")
+			M_rname = replacetext(M_rname, "\"", "")
+			M_rname = replacetext(M_rname, "\\", "")
 
 			var/M_key = M.key
-			M_key = replacetext_char(M_key, "'", "")
-			M_key = replacetext_char(M_key, "\"", "")
-			M_key = replacetext_char(M_key, "\\", "")
+			M_key = replacetext(M_key, "'", "")
+			M_key = replacetext(M_key, "\"", "")
+			M_key = replacetext(M_key, "\\", "")
 
 			//output for each mob
 			dat += {"
@@ -326,7 +326,7 @@
 	if (!usr.client.holder)
 		return
 
-	var/dat = "<html><head><title>Player Menu</title></head>"
+	var/dat = "<html><meta charset=\"utf-8\"><head><title>Player Menu</title></head>"
 	dat += "<body><table border=1 cellspacing=5><B><tr><th>Name</th><th>Real Name</th><th>Assigned Job</th><th>Key</th><th>Options</th><th>PM</th><th>Traitor?</th></tr></B>"
 	//add <th>IP:</th> to this if wanting to add back in IP checking
 	//add <td>(IP: [M.lastKnownIP])</td> if you want to know their ip to the lists below
@@ -397,7 +397,7 @@
 /datum/admins/proc/check_antagonists()
 	if (ticker && ticker.current_state >= GAME_STATE_PLAYING)
 		var/dat = list()
-		dat += "<html><head><title>Round Status</title></head><body><h1><B>Round Status</B></h1>"
+		dat += "<html><meta charset=\"utf-8\"><head><title>Round Status</title></head><body><h1><B>Round Status</B></h1>"
 		dat += "Current Game Mode: <B>[ticker.mode.name]</B><BR>"
 		dat += "Round Duration: <B>[roundduration2text()]</B><BR>"
 		dat += "<B>Evacuation</B><BR>"
