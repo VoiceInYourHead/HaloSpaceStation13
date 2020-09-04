@@ -306,6 +306,7 @@
 	head = /obj/item/clothing/head/helmet/mp
 	suit = /obj/item/clothing/suit/storage/mp
 	gloves = /obj/item/clothing/gloves/thick/unsc
+	l_pocket = /obj/item/device/flash
 	starting_accessories = list (/obj/item/clothing/accessory/rank/marine/enlisted/e6, /obj/item/clothing/accessory/badge/tags)
 
 	flags = 0

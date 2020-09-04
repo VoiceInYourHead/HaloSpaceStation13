@@ -47,11 +47,11 @@
 //Flashing everyone
 		if(eye_safety < FLASH_PROTECTION_MODERATE)
 			if(get_dist(M,T) <= 2)
-				M.flash_eyes(,,,,,50)//5 seconds flash max
+				M.flash_eyes(,,,,,100)//5 seconds flash max
 			else if(get_dist(M,T) <= 5)
-				M.flash_eyes(,,,,,40)
+				M.flash_eyes(,,,,,80)
 			else if(get_dist(M,T) <= 7)
-				M.flash_eyes(,,,,,35)
+				M.flash_eyes(,,,,,60)
 			else
 				M.flash_eyes(,,,,,30)
 
