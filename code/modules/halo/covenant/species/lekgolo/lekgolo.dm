@@ -13,8 +13,8 @@
 
 	layer = ABOVE_HUMAN_LAYER
 
-	maxHealth = 500
-	health = 500
+	maxHealth = 400
+	health = 400
 	unsuitable_atmos_damage = 0
 	var/crouched = 0
 
