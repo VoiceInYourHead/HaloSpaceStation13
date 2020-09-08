@@ -10,7 +10,7 @@
 /decl/hierarchy/outfit/job/stranded_unsc/marine
 	name = OUTFIT_JOB_NAME("UNSC marine survivor outfit")
 	uniform = /obj/item/clothing/under/unsc/marine_fatigues
-	shoes = /obj/item/clothing/shoes/marine
+	shoes = /obj/item/clothing/shoes/marine/crewman
 	l_pocket = /obj/item/weapon/grenade/frag/m9_hedp
 	r_pocket = /obj/item/device/flashlight/flare
 

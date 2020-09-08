@@ -3128,7 +3128,7 @@
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"
 #include "maps\dev planet\map_areas.dm"
-#include "maps\geminus_city\geminus_fall.dm"
+#include "maps\firefight\firefight.dm"
 #include "maps\geminus_city\innie_quest\file_comms.dm"
 #include "maps\geminus_city\innie_quest\file_coord.dm"
 #include "maps\geminus_city\innie_quest\program_comms.dm"
