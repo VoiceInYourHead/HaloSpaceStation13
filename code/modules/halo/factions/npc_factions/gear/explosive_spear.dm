@@ -37,7 +37,7 @@
 		var/mob/living/L = src.loc
 		if(istype(L))
 			L.drop_from_inventory(src, T)
-		explosion(T, -1, -1, 3, 6, 0, guaranteed_damage = 50, guaranteed_damage_range = 1)
+		explosion(T, -1, -1, 3, 6, 0, guaranteed_damage = 70, guaranteed_damage_range = 3)
 		qdel(src)
 
 /obj/item/weapon/explosive_spear/throw_impact(atom/hit_atom, var/speed)

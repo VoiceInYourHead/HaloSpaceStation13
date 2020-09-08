@@ -38,7 +38,7 @@
 
 
 /obj/item/vehicle_component/health_manager/wraith
-	integrity = 1000
+	integrity = 1200
 	resistances = list("brute"=90,"burn"=90,"emp"=40,"bomb"=65)
 	repair_materials = list("nanolaminate")
 

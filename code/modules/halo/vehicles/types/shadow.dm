@@ -40,7 +40,7 @@
 	guns_disabled = 0
 
 /obj/item/vehicle_component/health_manager/shadow
-	integrity = 1000
+	integrity = 1200
 	resistances = list("brute"=80,"burn"=80,"emp"=20,"bomb"=50)
 	repair_materials = list("nanolaminate")
 

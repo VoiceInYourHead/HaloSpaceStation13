@@ -37,7 +37,7 @@
 
 //Pelican component profile define//
 /obj/item/vehicle_component/health_manager/pelican
-	integrity = 600
+	integrity = 900
 	resistances = list("brute"=45,"burn"=45,"emp"=50,"bomb" = 50)
 
 /datum/component_profile/pelican

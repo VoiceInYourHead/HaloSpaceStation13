@@ -52,10 +52,10 @@
 	icon_state = "Plasmarifle Shot"
 
 /obj/item/projectile/bullet/covenant/plasmarepeater
-	damage = 50 //The repeater does enough, thank you.
+	damage = 30 //The repeater does enough, thank you. UPD: RIP Repeater
 	icon = 'code/modules/halo/weapons/icons/Covenant_Projectiles.dmi'
 	icon_state = "plasma_repeater"
-	armor_penetration = 20
+	armor_penetration = 10
 	shield_damage = 10
 	muzzle_type = /obj/effect/projectile/muzzle/cov_cyan
 

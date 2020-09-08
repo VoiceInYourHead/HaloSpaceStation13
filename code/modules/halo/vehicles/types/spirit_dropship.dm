@@ -43,7 +43,7 @@
 
 //Pelican component profile define//
 /obj/item/vehicle_component/health_manager/spirit
-	integrity = 750
+	integrity = 900
 	resistances = list("brute"=50,"burn"=40,"emp"=40,"bomb"=50)
 	repair_materials = list("nanolaminate")
 
