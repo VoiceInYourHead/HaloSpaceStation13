@@ -44,16 +44,18 @@
 				if(istype(M:head, /obj/item/clothing/head/helmet))
 					ear_safety += 1
 
-//Flashing everyone
-		if(eye_safety < FLASH_PROTECTION_MODERATE)
-			if(get_dist(M,T) <= 2)
-				M.flash_eyes(,,,,,100)//5 seconds flash max
-			else if(get_dist(M,T) <= 5)
-				M.flash_eyes(,,,,,80)
-			else if(get_dist(M,T) <= 7)
-				M.flash_eyes(,,,,,60)
-			else
-				M.flash_eyes(,,,,,30)
+//Flashing every human
+		if(istype(M,/mob/living/carbon/human))
+			if(istype(M.species,/datum/species/human))
+				if(eye_safety < FLASH_PROTECTION_MODERATE)
+					if(get_dist(M,T) <= 2)
+						M.flash_eyes(,,,,,100)//5 seconds flash max
+					else if(get_dist(M,T) <= 5)
+						M.flash_eyes(,,,,,80)
+					else if(get_dist(M,T) <= 7)
+						M.flash_eyes(,,,,,60)
+					else
+						M.flash_eyes(,,,,,30)
 
 //Now applying sound
 			if((get_dist(M, T) <= 2 || src.loc == M.loc || src.loc == M))
