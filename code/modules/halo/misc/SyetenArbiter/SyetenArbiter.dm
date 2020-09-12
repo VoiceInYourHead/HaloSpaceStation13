@@ -3,7 +3,7 @@
     desc = "A protective harness for use during combat by the arbiter."
     icon_state = "dogler-arbiter-suit_obj"
     item_state = "dogler-arbiter-suit_worn"
-    totalshields = 150
+    totalshields = 180
 
 /obj/item/clothing/head/helmet/sangheili/arbiter
 	name = "Arbiter Helmet"
@@ -41,6 +41,7 @@
 		slot_r_hand_str = 'code/modules/halo/misc/SyetenArbiter/inhands_right.dmi'
 		)
 	force = 65
+	slot_flags = SLOT_BACK
 	throwforce = 12
 	edge = 0
 	sharp = 0

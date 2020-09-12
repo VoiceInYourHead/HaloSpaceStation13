@@ -54,3 +54,13 @@
 	is_whitelisted = 1
 	spawn_positions = 0
 	total_positions = 0
+
+/datum/job/covenant/unggoy_heretic
+	title = "Unggoy Heretic"
+	total_positions = 2
+	spawn_faction = "UNSC"
+	spawn_positions = 2
+	is_whitelisted = 1
+	outfit_type = /decl/hierarchy/outfit/unggoy/major
+	access = list(230,250)
+	whitelisted_species = list(/datum/species/unggoy)

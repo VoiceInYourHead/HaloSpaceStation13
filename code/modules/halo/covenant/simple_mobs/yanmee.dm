@@ -9,6 +9,8 @@
 	emote_hear = list("chitters","buzzes")
 	emote_see = list("flutters its wings")
 	speak_chance = 1
+	health = 150
+	maxHealth = 150
 	combat_tier = 1
 	speed = 5
 

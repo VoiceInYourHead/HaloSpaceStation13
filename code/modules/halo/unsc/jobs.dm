@@ -85,8 +85,6 @@
 //JOBS//
 
 /datum/job/unsc_job
-	spawnpoint_override = "UNSC Base Spawns"
-	fallback_spawnpoint = "UNSC Base Fallback Spawns"
 	access = list(access_unsc,access_unsc_armoury)
 	selection_color = "0A0A95"
 	whitelisted_species = list(/datum/species/human)
@@ -96,26 +94,27 @@
 
 /datum/job/unsc_job/unsc_marine
 	title = "UNSC Marine"
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 10
+	spawn_positions = 10
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/marine
 	alt_titles = list("Marine Combat Medic" = /decl/hierarchy/outfit/job/unsc_job/marine/medic,
-	"Marine Combat Engineer" = /decl/hierarchy/outfit/job/unsc_job/marine/engie,
-	"Designated Marksman Marine",
-	"Combat Pilot Marine")
+	"Marine Combat Engineer" = /decl/hierarchy/outfit/job/unsc_job/marine/engie)
 
 /datum/job/unsc_job/unsc_marine_specialist
 	title = "UNSC Marine Specialist"
 	total_positions = 4
 	spawn_positions = 4
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/marine
 	alt_titles = list("Light Machine Gunner Marine","Scout Sniper Marine","Anti-Tank Marine")
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist)
 
 /datum/job/unsc_job/unsc_squad_lead
 	title = "UNSC Squad Leader"
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 2
+	spawn_positions = 2
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/squadlead
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist)
 
@@ -123,6 +122,7 @@
 	title = "UNSC Commanding Officer"
 	total_positions = 1
 	spawn_positions = 1
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/marine/co
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist,access_unsc_odst,access_unsc_oni)
 
@@ -130,6 +130,7 @@
 	title = "UNSC ODST Rifleman"
 	total_positions = 6
 	spawn_positions = 6
+	is_whitelisted = 1
 	alt_titles = list("UNSC ODST Engineer","UNSC ODST Medic","UNSC ODST Sharpshooter","UNSC ODST Close Quarters Fighter")
 	access = list(access_unsc,access_unsc_armoury,access_unsc_odst,access_unsc_specialist)
 	outfit_type = /decl/hierarchy/outfit/job/facil_ODST
@@ -139,6 +140,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/bridgecrew
 	total_positions = 3
 	spawn_positions = 3
+	is_whitelisted = 1
 	alt_titles = list("UNSC Ship Tehnician"= /decl/hierarchy/outfit/job/unsc_job/technician,
 	"UNSC Doctor"= /decl/hierarchy/outfit/job/unsc_job/medicalcrew,)
 	access = list(access_unsc)
@@ -163,6 +165,7 @@
 	title = "UNSC ODST Squad Leader"
 	total_positions = 1
 	spawn_positions = 1
+	is_whitelisted = 1
 	alt_titles = list()
 	access = list(access_unsc,access_unsc_armoury,access_unsc_odst,access_unsc_specialist)
 	outfit_type = /decl/hierarchy/outfit/job/facil_ODST/squadleader
@@ -206,6 +209,7 @@
 	title = "UNSC Mech Pilot"
 	total_positions = 1
 	spawn_positions = 1
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/mech_pilot
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist)
 
@@ -269,15 +273,17 @@
 
 /datum/job/unsc_job/airship_pilot
 	title = "UNSC Airship Pilot"
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = 4
+	spawn_positions = 4
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/job/unsc_job/airship_pilot
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist)
 
 /datum/job/mp_officer
 	title = "UNSC Military Police Officer"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
+	is_whitelisted = 1
 	selection_color = "#0A0A95"
 	spawn_faction = "UNSC"
 	whitelisted_species = list(/datum/species/human)

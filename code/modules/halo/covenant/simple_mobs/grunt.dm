@@ -12,12 +12,26 @@
 	icon_state = "grunt_minor"
 	icon_living = "grunt_minor"
 	icon_dead = "grunt_minor_dead"
+	health = 120
+	maxHealth = 120
 /*	ranged = 1
 	projectiletype = /obj/item/projectile/bullet/covenant/plasmapistol
 	var/weapon1 = /obj/item/weapon/gun/energy/plasmapistol*/
 	possible_weapons = list(/obj/item/weapon/gun/energy/plasmapistol, /obj/item/weapon/gun/projectile/needler)
 	combat_tier = 1
 	turns_per_move = 1
+
+/mob/living/simple_animal/hostile/covenant/grunt/death(gibbed, deathmessage = "dies!", show_dead_message = 1)
+	. = ..()
+	if(held_light)
+		held_light.on = 0
+		held_light.update_icon()
+	if(prob(60))
+		new/obj/item/ammo_magazine/m762_ap/MA5B(src.loc)
+	else if(prob(49))
+		new/obj/item/ammo_magazine/m127_saphp(src.loc)
+	else if(prob(56))
+		new/obj/item/ammo_magazine/needles(src.loc)
 
 /mob/living/simple_animal/hostile/covenant/grunt/major
 	name = "Grunt Major (NPC)"
@@ -28,6 +42,18 @@
 	resistance = 5
 	turns_per_move = 1
 
+/mob/living/simple_animal/hostile/covenant/grunt/major/death(gibbed, deathmessage = "dies!", show_dead_message = 1)
+	. = ..()
+	if(held_light)
+		held_light.on = 0
+		held_light.update_icon()
+	if(prob(70))
+		new/obj/item/ammo_magazine/m95_sap/br55(src.loc)
+	else if(prob(55))
+		new/obj/item/ammo_magazine/m127_saphe(src.loc)
+	else if(prob(56))
+		new/obj/item/ammo_magazine/needles(src.loc)
+
 /mob/living/simple_animal/hostile/covenant/grunt/heavy
 	name = "Grunt Heavy (NPC)"
 	icon_state = "grunt_heavy"
@@ -37,6 +63,16 @@
 	resistance = 5
 	turns_per_move = 3
 	possible_weapons = list(/obj/item/weapon/gun/energy/plasmarepeater)
+
+/mob/living/simple_animal/hostile/covenant/grunt/heavy/death(gibbed, deathmessage = "dies!", show_dead_message = 1)
+	. = ..()
+	if(held_light)
+		held_light.on = 0
+		held_light.update_icon()
+	if(prob(56))
+		new/obj/item/ammo_magazine/a762_box_ap(src.loc)
+	else if(prob(56))
+		new/obj/item/ammo_magazine/needles(src.loc)
 
 /mob/living/simple_animal/hostile/covenant/grunt/ultra
 	name = "Grunt Ultra (NPC)"
@@ -91,3 +127,15 @@
 		else if(world.time >= last_damage + recharge_delay && shield_left < shield_max)
 			recharging = 1
 			overlays |= "shield_overlay_recharge"
+
+/mob/living/simple_animal/hostile/covenant/grunt/ultra/death(gibbed, deathmessage = "dies!", show_dead_message = 1)
+	. = ..()
+	if(held_light)
+		held_light.on = 0
+		held_light.update_icon()
+	if(prob(55))
+		new/obj/item/ammo_magazine/kv32(src.loc)
+	else if(prob(40))
+		new/obj/item/ammo_magazine/m145_ap(src.loc)
+	else if(prob(56))
+		new/obj/item/ammo_magazine/needles(src.loc)

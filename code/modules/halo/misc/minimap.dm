@@ -6,7 +6,33 @@
 	var/list/overlay_list = list()
 /obj/structure/sign/map/New()
 	..()
-	img = image(icon = 'icons/fog1.dmi', icon_state = "fog")
+	img = image(icon = 'icons/map.dmi', icon_state = "map")
+
+/obj/structure/sign/map/future1
+	desc = "A detailed area map for planning operations."
+	name = "area map"
+	icon_state = "tncC"
+	layer = ABOVE_HUMAN_LAYER
+	plane = ABOVE_HUMAN_PLANE
+
+/obj/structure/sign/map/future2
+	desc = "A detailed area map for planning operations."
+	name = "area map"
+	icon_state = "tncD"
+	layer = ABOVE_HUMAN_LAYER
+	plane = ABOVE_HUMAN_PLANE
+
+/obj/structure/sign/map/future3
+	desc = "A detailed area map for planning operations."
+	name = "area map"
+	density = 1
+	icon_state = "tncA"
+
+/obj/structure/sign/map/future4
+	desc = "A detailed area map for planning operations."
+	name = "area map"
+	density = 1
+	icon_state = "tncB"
 
 /obj/structure/sign/map/examine(mob/user)
 	user << browse(getFlatIcon(img),"window=popup;size=800x800")
@@ -117,10 +143,25 @@
 	w_class = 1.0
 
 /obj/item/weapon/map/New()
-	img = image(icon = 'icons/fog1.dmi', icon_state = "fog")
+	img = image(icon = 'icons/map.dmi', icon_state = "map")
 
 /obj/item/weapon/map/examine(mob/user)
-	user << browse("<img src=minimap.png></img>","window=popup;size=800x800")
+	user << browse("<img src=map.dmi></img>","window=popup;size=800x800")
 
 /obj/item/weapon/map/attack_self(mob/user)
+	examine(user)
+
+/obj/item/weapon/map/future
+	desc = "A portable map of the area."
+	name = "folding map"
+	icon = 'icons/obj/decals.dmi'
+	icon_state = "finder1"
+
+/obj/item/weapon/map/future/New()
+	img = image(icon = 'icons/map.dmi', icon_state = "map")
+
+/obj/item/weapon/map/future/examine(mob/user)
+	user << browse("<img src=icons/map.dmi></img>","window=popup;size=800x800")
+
+/obj/item/weapon/map/future/attack_self(mob/user)
 	examine(user)

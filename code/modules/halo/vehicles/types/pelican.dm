@@ -20,7 +20,7 @@
 
 	ammo_containers = newlist(/obj/item/ammo_magazine/pelican_hmg)
 
-	occupants = list(13,1)
+	occupants = list(6,1)
 
 	vehicle_size = ITEM_SIZE_VEHICLE_LARGE
 	vehicle_carry_size = ITEM_SIZE_VEHICLE

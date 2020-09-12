@@ -79,3 +79,14 @@
 	outfit_type = /decl/hierarchy/outfit/sangheili/zealot
 	whitelisted_species = list(/datum/species/sangheili)
 	access = list(access_covenant, access_covenant_command)
+
+/datum/job/covenant/sangheili_heretic
+	title = "Heretics Leader"
+	total_positions = 1
+	spawn_positions = 1
+	spawn_faction = "UNSC"
+	outfit_type = /decl/hierarchy/outfit/sangheili/heretic
+	access = list(240,250)
+	is_whitelisted = 1
+	whitelisted_species = list(/datum/species/sangheili)
+	access = list(access_covenant, access_covenant_command)

@@ -85,10 +85,6 @@
 
 	. = ..() //Placed here to ensure that it can still check the health before regeneration happens.
 
-	//heal a little
-	if(stat != DEAD && health < maxHealth)
-		health += regeneration
-
 	//regain charge
 	if(active_weapon.charge_amount <= active_weapon.charge_max)
 		active_weapon.charge_amount += active_weapon.charge_recharge_amount

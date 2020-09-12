@@ -3127,7 +3127,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"
-#include "maps\company3\karrabak.dm"
+#include "maps\company1\karrabak.dm"
 #include "maps\dev planet\map_areas.dm"
 #include "maps\geminus_city\innie_quest\file_comms.dm"
 #include "maps\geminus_city\innie_quest\file_coord.dm"

@@ -29,7 +29,7 @@
 	max_gas = null
 	minbodytemp = 0
 
-	faction = "carp"
+	faction = "Covenant"
 
 /mob/living/simple_animal/hostile/tree/FindTarget()
 	. = ..()

@@ -5,6 +5,8 @@
 	icon_living = "kigyar"
 	icon_dead = "dead_kigyar"
 	combat_tier = 2
+	health = 80
+	maxHealth = 80
 	turns_per_move = 2
 	possible_weapons = list(/obj/item/weapon/gun/projectile/type51carbine, /obj/item/weapon/gun/projectile/type31needlerifle)
 
@@ -34,6 +36,16 @@ mob/living/simple_animal/hostile/covenant/jackal/shield/apply_difficulty_setting
 /mob/living/simple_animal/hostile/covenant/jackal/shield/New()
 	. = ..()
 	overlays += shield_state
+
+mob/living/simple_animal/hostile/covenant/jackal/shield/death(gibbed, deathmessage = "dies!", show_dead_message = 1)
+	. = ..()
+	if(held_light)
+		held_light.on = 0
+		held_light.update_icon()
+	if(prob(70))
+		new/obj/item/clothing/gloves/shield_gauntlet/kigyar(src.loc)
+	else if(prob(56))
+		new/obj/item/ammo_magazine/needles(src.loc)
 
 /mob/living/simple_animal/hostile/covenant/jackal/shield/bullet_act(var/obj/item/projectile/P, var/def_zone)
 

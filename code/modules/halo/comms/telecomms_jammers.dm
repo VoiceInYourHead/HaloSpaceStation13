@@ -67,6 +67,17 @@
 	jam_range = 25
 	jam_ignore_malfunction_chance = 10
 
+/obj/machinery/telecomms_jammers/covenant/big
+	name = "close range malfunctioning radio jammer"
+	icon_state = "Cael antena"
+	icon = 'cael_antena.dmi'
+	ignore_freqs = list("BattleNet")
+	jam_power = -2
+	jam_chance = 100
+	jam_range = 40
+	jamming_active = 1
+	jam_ignore_malfunction_chance = 10
+
 /obj/machinery/telecomms_jammers/insurrectionist
 	icon_state = "jammer_insurrectionist"
 	/*

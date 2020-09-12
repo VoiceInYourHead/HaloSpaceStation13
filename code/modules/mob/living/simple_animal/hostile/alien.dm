@@ -89,7 +89,7 @@
 /mob/living/simple_animal/hostile/samak
 	name = "samak"
 	desc = "A fast, armoured predator accustomed to hiding and ambushing in cold terrain."
-	faction = "samak"
+	faction = "Covenant"
 	icon_state = "samak"
 	icon_living = "samak"
 	icon_dead = "samak_dead"
@@ -109,7 +109,7 @@
 /mob/living/simple_animal/hostile/diyaab
 	name = "diyaab"
 	desc = "A small pack animal. Although omnivorous, it will hunt meat on occasion."
-	faction = "diyaab"
+	faction = "Covenant"
 	icon_state = "diyaab"
 	icon_living = "diyaab"
 	icon_dead = "diyaab_dead"
@@ -129,7 +129,7 @@
 /mob/living/simple_animal/hostile/shantak
 	name = "shantak"
 	desc = "A piglike creature with a bright iridiscent mane that sparkles as though lit by an inner light. Don't be fooled by its beauty though."
-	faction = "shantak"
+	faction = "Covenant"
 	icon_state = "shantak"
 	icon_living = "shantak"
 	icon_dead = "shantak_dead"

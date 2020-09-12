@@ -1,0 +1,245 @@
+"aa" = (/turf/space,/area/space)
+"ab" = (/turf/simulated/wall/covenant/reinforced,/area/space)
+"ac" = (/obj/machinery/power/smes/batteryrack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"ad" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/bridge)
+"ae" = (/obj/machinery/deck_gun/cov_pulse_turret{icon_state = "pulse_turret_2"; dir = 1},/turf/space,/area/space)
+"af" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/sangheiliquarters)
+"ag" = (/obj/structure/bed/covenant,/obj/machinery/light/covenant/north,/obj/effect/landmark/start{name = "Heretics Leader"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"ah" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"ai" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/porthangar)
+"aj" = (/obj/vehicles/drop_pod/overmap/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"ak" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"al" = (/obj/structure/lattice,/turf/space,/area/space)
+"am" = (/obj/machinery/vending/armory/covenant/general/medical,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"an" = (/obj/machinery/vending/armory/covenant/general/food,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"ao" = (/turf/simulated/wall/covenant/reinforced,/area/covenant_heretic_ship/porthangar)
+"ap" = (/obj/structure/closet/crate/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"aq" = (/obj/structure/ore_box/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"ar" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"as" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"at" = (/obj/machinery/overmap_weapon_console/boarding_beacon_launcher/covenant,/obj/machinery/light/covenant/north,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"au" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/portarmory)
+"av" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aw" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"ax" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"ay" = (/obj/structure/rearm_repair_station/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"az" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 1},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"aA" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 1},/obj/vehicles/ghost{icon_state = "base"; dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"aB" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 1},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"aC" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/centralengine)
+"aD" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aE" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"aF" = (/obj/structure/bed/chair/comfy/captain{color = "purple"; dir = 1; icon_state = "capchair_preview"; name = "Bridge chair"; tag = "icon-capchair_preview (NORTH)"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"aG" = (/obj/machinery/overmap_weapon_console/npc_comms_console/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"aH" = (/obj/structure/table/marble,/obj/item/weapon/gun/energy/plasmarifle,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aI" = (/obj/docking_umbilical/north{name = "Starboard Docking Port"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aJ" = (/obj/machinery/vending/armory/covenant/sangheili/equipment,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aK" = (/obj/machinery/vending/armory/covenant/sangheili/weapon,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aL" = (/obj/structure/repair_bench/cov,/obj/machinery/light/covenant/west,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aM" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aN" = (/obj/structure/table/marble,/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"aO" = (/obj/machinery/light/invis,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"aP" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"aQ" = (/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"aR" = (/obj/machinery/light/covenant/north,/obj/item/turret_deploy_kit/plasturret,/obj/item/turret_deploy_kit/plasturret,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"aS" = (/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aT" = (/obj/structure/closet/crate/covenant,/obj/item/weapon/gun/projectile/type31needlerifle,/obj/item/weapon/gun/projectile/type31needlerifle,/obj/item/weapon/gun/projectile/type31needlerifle,/obj/item/weapon/gun/projectile/type51carbine,/obj/item/weapon/gun/projectile/type51carbine,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"aU" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aV" = (/obj/structure/window/reinforced/projresist/covenant{dir = 1},/obj/structure/window/reinforced/projresist/covenant{dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aW" = (/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (NORTH)"; icon_state = "window"; dir = 1},/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"aX" = (/obj/structure/table/marble,/obj/machinery/light/covenant/west,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"aY" = (/obj/structure/table/marble,/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"aZ" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"ba" = (/obj/machinery/vending/armory/covenant/sangheili/heavy,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"bb" = (/obj/machinery/deck_gun/cov_pulse_turret{icon_state = "pulse_turret_2"; dir = 8},/turf/space,/area/space)
+"bc" = (/obj/structure/closet/crate/covenant,/obj/item/weapon/gun/energy/plasmarepeater,/obj/item/weapon/gun/energy/plasmapistol,/obj/item/weapon/gun/energy/plasmapistol,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"bd" = (/obj/machinery/slipspace_engine/covenant,/obj/structure/window/reinforced/projresist/covenant,/obj/machinery/door/window/brigdoor/westleft,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"be" = (/obj/machinery/deck_gun/missile_pod/plasma_torpedo{icon_state = "plasma_pod"; dir = 1},/turf/simulated/wall/covenant/reinforced,/area/space)
+"bf" = (/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bg" = (/obj/machinery/light/covenant/north,/obj/structure/bed/chair/comfy/captain{color = "purple"; dir = 8; icon_state = "capchair_preview"; name = "Bridge chair"; tag = "icon-capchair_preview (WEST)"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"bh" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/forehallway)
+"bi" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"bj" = (/obj/structure/sign/map/future3,/obj/structure/sign/map/future1{pixel_y = 32},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bk" = (/obj/structure/sign/map/future4,/obj/structure/sign/map/future2{pixel_y = 32},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bl" = (/obj/structure/weapon_rack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bm" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bn" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 1},/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bo" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bp" = (/obj/effect/floor_decal/industrial/warning,/obj/vehicles/ghost{icon_state = "base"; dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bq" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"br" = (/obj/machinery/light/covenant/west,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bs" = (/obj/structure/closet/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bt" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bu" = (/obj/machinery/light/covenant/north,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bv" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bw" = (/obj/machinery/computer/helm/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"bx" = (/obj/structure/bed/chair/comfy/captain{color = "purple"; dir = 8; icon_state = "capchair_preview"; name = "Bridge chair"; tag = "icon-capchair_preview (WEST)"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"by" = (/obj/structure/memorial_valmoric,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bz" = (/obj/structure/memorial_dabdab,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bA" = (/obj/structure/window/reinforced/projresist/covenant{dir = 4},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bB" = (/obj/machinery/overmap_comms/receiver/battlenet,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bC" = (/obj/structure/table/marble,/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bD" = (/obj/machinery/door/airlock/multi_tile/covenant/three{icon_state = "closed"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"bE" = (/obj/machinery/deck_gun/missile_pod/plasma_torpedo,/turf/space,/area/space)
+"bF" = (/obj/machinery/deck_gun/cov_pulse_turret,/turf/space,/area/space)
+"bG" = (/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/forehallway)
+"bH" = (/obj/machinery/door/airlock/multi_tile/covenant/three{icon_state = "closed"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"bI" = (/obj/vehicles/air/overmap/spirit_dropship{dir = 8; icon_state = "base"; pixel_y = -8},/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bJ" = (/obj/machinery/door/airlock/multi_tile/covenant/three{icon_state = "closed"; dir = 8},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bK" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bL" = (/obj/machinery/overmap_weapon_console/ship_scanning_console/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"bM" = (/obj/structure/bed/chair/comfy/captain{color = "purple"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"bN" = (/turf/simulated/wall/covenant,/area/covenant_heretic_ship/unggoyquarters)
+"bO" = (/obj/machinery/door/airlock/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bP" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"bQ" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/turf/simulated/floor/plating,/area/covenant_heretic_ship/porthangar)
+"bR" = (/obj/structure/closet/crate/covenant,/obj/machinery/light/covenant/north,/obj/item/stack/material/plasteel/fifty,/obj/item/stack/material/plasteel/fifty,/obj/item/stack/material/plasteel/fifty,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"bS" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"bT" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"bU" = (/obj/structure/bed/grunt,/obj/machinery/light/covenant/west,/obj/effect/landmark/start{name = "Unggoy Heretic"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bV" = (/obj/structure/table/marble,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bW" = (/obj/machinery/vending/armory/covenant/unggoy/equipment,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bX" = (/obj/structure/repair_bench/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bY" = (/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"bZ" = (/obj/structure/closet/covenant,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/sangheiliquarters)
+"ca" = (/obj/machinery/door/window/brigdoor/westleft,/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (NORTH)"; icon_state = "window"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cb" = (/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (NORTH)"; icon_state = "window"; dir = 1},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cc" = (/obj/structure/closet/covenant,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/steel/fifty,/obj/machinery/light/covenant/west,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cd" = (/obj/machinery/overmap_weapon_console/deck_gun_control/local/plastorp_control,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"ce" = (/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cf" = (/obj/structure/table/marble,/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cg" = (/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{dir = 8},/obj/machinery/slipspace_engine/covenant/longrange,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"ch" = (/obj/structure/window/reinforced/projresist/covenant,/obj/structure/window/reinforced/projresist/covenant{tag = "icon-window (EAST)"; icon_state = "window"; dir = 4},/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"ci" = (/obj/machinery/overmap_weapon_console/deck_gun_control/local/cov_pulse_turret,/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"cj" = (/obj/structure/closet/crate/covenant,/obj/item/stack/material/phoron/fifty,/obj/item/stack/material/phoron/fifty,/obj/item/stack/material/phoron/fifty,/obj/item/stack/material/phoron/fifty,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"ck" = (/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"cl" = (/obj/structure/table/marble,/obj/item/device/flashlight/covenant,/obj/item/device/flashlight/covenant,/obj/item/device/flashlight/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cm" = (/obj/structure/bed/chair/covenant_stool,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cn" = (/turf/simulated/wall/covenant/reinforced,/area/covenant_heretic_ship/portarmory)
+"co" = (/obj/machinery/vending/armory/covenant/unggoy/weapon,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cp" = (/obj/structure/table/marble,/obj/machinery/light/covenant/west,/obj/item/weapon/map/future,/obj/item/weapon/map/future,/obj/item/weapon/melee/baton/humbler/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/bridge)
+"cq" = (/obj/structure/table/marble,/obj/machinery/light/covenant/east,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cr" = (/obj/machinery/vending/armory/covenant/unggoy/heavy,/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cs" = (/obj/structure/weapon_rack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"ct" = (/obj/machinery/iv_drip/covenant,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cu" = (/turf/simulated/wall/covenant/reinforced,/area/covenant_heretic_ship/centralengine)
+"cv" = (/turf/simulated/wall/covenant/reinforced,/area/covenant_heretic_ship/sangheiliquarters)
+"cw" = (/turf/simulated/wall/covenant/reinforced,/area/covenant_heretic_ship/unggoyquarters)
+"cx" = (/obj/structure/table/rack,/obj/item/ammo_magazine/fuel_rod,/obj/item/ammo_magazine/fuel_rod,/obj/item/ammo_magazine/fuel_rod,/obj/item/ammo_magazine/fuel_rod,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"cy" = (/obj/structure/closet/covenant,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/rifleneedlepack,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/type51mag,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/obj/item/ammo_magazine/needles,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"cz" = (/obj/effect/landmark/map_data{name = "CRS High Enlightenmen"},/turf/space,/area/space)
+"cA" = (/obj/effect/overmap/ship/covenant_heretic_ship,/turf/space,/area/space)
+"cB" = (/obj/structure/table/marble,/obj/item/ammo_magazine/plasturret_boxmag,/obj/item/ammo_magazine/plasturret_boxmag,/obj/item/weapon/grenade/plasma,/obj/item/weapon/grenade/plasma,/obj/item/weapon/grenade/plasma,/obj/item/weapon/gun/projectile/needler,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/portarmory)
+"cC" = (/obj/structure/closet/covenant,/obj/machinery/light/covenant/north,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/obj/item/weapon/armor_patch/cov,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cD" = (/obj/structure/table/marble,/obj/item/device/healthanalyzer,/obj/item/weapon/defibrillator/compact/combat/loaded,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cE" = (/obj/structure/table/marble,/obj/item/weapon/handcuffs,/obj/item/weapon/handcuffs,/obj/item/weapon/handcuffs,/obj/item/weapon/handcuffs,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cF" = (/obj/structure/bed/grunt,/obj/effect/landmark/start{name = "Unggoy Heretic"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/unggoyquarters)
+"cG" = (/obj/structure/closet/crate/covenant,/obj/item/stack/material/steel/fifty,/obj/item/stack/barbedwire/ten,/obj/item/stack/barbedwire/ten,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cH" = (/obj/structure/table/marble,/obj/item/stack/material/nanolaminate/fifty,/obj/item/stack/material/nanolaminate/fifty,/obj/item/stack/material/nanolaminate/fifty,/obj/item/stack/material/wood/fifty,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cI" = (/obj/structure/table/marble,/obj/item/flight_item/covenant_pack,/obj/item/flight_item/covenant_pack,/obj/item/flight_item/covenant_pack,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/porthangar)
+"cJ" = (/obj/machinery/repulsor_engine{icon_state = "off"; dir = 8},/turf/space,/area/covenant_heretic_ship/centralengine)
+"cK" = (/obj/machinery/portable_atmospherics/powered/scrubber/huge{description_info = "Provides power, runs on Tritium"; icon = 'code/modules/halo/icons/machinery/reactor2.dmi'; icon_state = "reactoron"; name = "Pinch fusion reactor"},/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+"cL" = (/obj/machinery/power/smes/batteryrack,/obj/machinery/light/covenant/south,/turf/simulated/floor/covenant{icon_state = "cov_floor"},/area/covenant_heretic_ship/centralengine)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaeaaaaalalcucucucucucualalalabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaababababababbeabalalalalababababcvcvcvcvcvcvcvcvcvaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoalaacuaraIaraCcuaaaaaaabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadadadadadabababaaabababababafagaHafafafafafafaiaiajaiajaiakamanaoapakakaoaqaoaoaacuararaSaCcuababababcucucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadasasatadadadabaaabauauauauauavavawavavahahafaiaiaxaiaxaiaxaxaxayaxaxaxazaAaBaocucuccaraUaCaCaCaCaCaCcucucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadasaEaFaEaGadabaaabauaTaRbcauaJaKafaLavaMaNafaxaxaxaxaxaxaOaxaxaxaxaOaxaPaQaQaicuaCaCaDaCaCbRaUaVaWaCaCcucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadadadaXaEaEaEaYadabababauaZaZaZauafafafafbaavbZafaxaOaxaxaxaxaxaxaxaxaxaxaxaPaQaQaicuaCarararaCararbdbfaCaCcucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadaGbgaEaEaEaEaEaEadbhbhauaubiauaubjbkblafafawafafaxaxaxaxaxbmaBaBaBaBaBbnaxbobpbqaiaiaCbrararaCararararbsaCcucucucucucucucucuababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadasaEaEaEadadaEaEaEbtbtbubtbtbtbtbtbtbtbtbubtbtaxaxaxaxaxaxaPaQaQaQaQaQbvaxaxaxaxaxaxararararararararararaCcucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadbwbxaEaEadadaEaEaEbtbtbtbtbtbtbybtbzbtbtbtbtbtaxaxaxaxaxaxaPaQaQaQaQaQbvaxaxaxaxaxaxarcKarararararbBarbCaCcucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadasaEaEaEadadaEaEbDbtbtbGbtbtbtbtbGbtbtbtbGbtbtbHaxaxaOaxaxbIaQaQaQaQaQbvaxaxaOaxaxbHararararbJarararbKaUaCcucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadbLbxaEaEaEaEaEaEadbhbhaubiauaubNbNbNbNbNbNbObNbNaxaxbPaxaxbobqbqbqbqbqbQaxaxaxaxaiaiaCbrararaCararararcjaCcucucucucucucucucuababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababadadadcpaEaEaEaYadabababauaZbScBbNbUbVbWbNbXbYcCbNaxcDakaxaxaxaxaxaxaOaxaxaxaxaxaxaicuaCarararaCararcacbaCaCcucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadasaEbMaEcdadabaaabauaZaZbTbNbYbYbYbObYbYbYbNbPakclaxaOaxaxaxaxaxaxaOaxaxaxaqaicuaCcearcfaCcearcgchaCaCcucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadasasciadadadabaaabaucxckcybNbYbYbYbNbYcmcEbNaxbPaxaxaxaiaxaiaxaiaxaxaxaiaxaqaocucuaCaDaCaCaCaCaCaCaCcucucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababadadadadadabababaaabcnauauaubNcocFcqbNcrbYcsbNctaocGamamaiajaiajaicHakcIaiapaoaoaacuararararcuababababcucucucucucucucucucubAcJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaababababababababalalalalababababcwcwcwcwcwcwcwcwcwaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoalaacuaccLacaccuaaaaaaabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalalcucucucucucualalalabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabFaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+czaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+cAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

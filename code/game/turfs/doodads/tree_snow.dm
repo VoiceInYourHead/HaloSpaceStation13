@@ -4,6 +4,8 @@
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "pine_1"
 	woodleft = 3
+	layer = ABOVE_HUMAN_LAYER
+	plane = ABOVE_HUMAN_PLANE
 
 /obj/structure/tree/snow_pine/New()
 	..()
@@ -14,6 +16,8 @@
 	icon = 'code/modules/halo/icons/doodads/trees.dmi'
 	icon_state = "pine1"
 	woodleft = 5
+	layer = ABOVE_HUMAN_LAYER
+	plane = ABOVE_HUMAN_PLANE
 
 /obj/structure/tree/snow_pine_giant/New()
 	..()
@@ -24,6 +28,8 @@
 	icon = 'icons/obj/flora/deadtrees.dmi'
 	icon_state = "tree_1"
 	woodleft = 2
+	layer = ABOVE_HUMAN_LAYER
+	plane = ABOVE_HUMAN_PLANE
 
 /obj/structure/tree/snow_dead/New()
 	..()
