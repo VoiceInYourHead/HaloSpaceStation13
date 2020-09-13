@@ -1,8 +1,8 @@
 /mob/living/simple_animal/hostile/covenant/elite
 	name = "Elite Minor (NPC)"
 	icon = 'code/modules/halo/covenant/simple_mobs/simple_mobs48.dmi'
-	health = 200
-	maxHealth = 200
+	health = 150
+	maxHealth = 150
 	combat_tier = 3
 	resistance = 10
 	icon_state = "minor"

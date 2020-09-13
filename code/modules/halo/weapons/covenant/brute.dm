@@ -231,10 +231,10 @@
 /obj/item/weapon/gun/launcher/grenade/brute_shot
 	name = "Type-25 \"Brute Shot\" Grenade Launcher"
 	desc = "A hip fired fast firing launcher for HE munitions with a curved backwards facing blade mounted to its underside."
-	icon = 'code/modules/halo/covenant/species/jiralhanae/jiralhanae_obj_large.dmi'
+	icon = 'code/modules/halo/covenant/species/jiralhanae/jiralhanae_obj_heavy.dmi'
 	icon_override = 'code/modules/halo/covenant/species/jiralhanae/jiralhanae_gear.dmi'
 	icon_state = "bruteshot"
-	item_state = "blank"
+	item_state = "bruteshot"
 	pump_sound = null
 	max_grenades = 6
 	one_hand_penalty = -1

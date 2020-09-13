@@ -1523,6 +1523,7 @@
 #include "code\modules\halo\covenant\medical\reagents.dm"
 #include "code\modules\halo\covenant\medical\rollerbed.dm"
 #include "code\modules\halo\covenant\simple_mobs\_covenant.dm"
+#include "code\modules\halo\covenant\simple_mobs\brute.dm"
 #include "code\modules\halo\covenant\simple_mobs\cleaning_drone.dm"
 #include "code\modules\halo\covenant\simple_mobs\elite.dm"
 #include "code\modules\halo\covenant\simple_mobs\elite_difficulty.dm"

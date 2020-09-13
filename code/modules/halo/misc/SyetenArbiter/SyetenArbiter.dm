@@ -1,9 +1,10 @@
 /obj/item/clothing/suit/armor/special/combatharness/arbiter
-    name = "Arbiter Combat Harness"
-    desc = "A protective harness for use during combat by the arbiter."
-    icon_state = "dogler-arbiter-suit_obj"
-    item_state = "dogler-arbiter-suit_worn"
-    totalshields = 180
+	name = "Arbiter Combat Harness"
+	desc = "A protective harness for use during combat by the arbiter."
+	icon_state = "dogler-arbiter-suit_obj"
+	item_state = "dogler-arbiter-suit_worn"
+	totalshields = 180
+	specials = list(/datum/armourspecials/shields,/datum/armourspecials/shieldmonitor/sangheili,/datum/armourspecials/cloaking,/datum/armourspecials/holo_decoy)
 
 /obj/item/clothing/head/helmet/sangheili/arbiter
 	name = "Arbiter Helmet"

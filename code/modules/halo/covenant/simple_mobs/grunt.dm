@@ -12,8 +12,6 @@
 	icon_state = "grunt_minor"
 	icon_living = "grunt_minor"
 	icon_dead = "grunt_minor_dead"
-	health = 120
-	maxHealth = 120
 /*	ranged = 1
 	projectiletype = /obj/item/projectile/bullet/covenant/plasmapistol
 	var/weapon1 = /obj/item/weapon/gun/energy/plasmapistol*/
