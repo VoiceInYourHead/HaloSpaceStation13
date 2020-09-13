@@ -131,7 +131,10 @@
 	total_positions = 6
 	spawn_positions = 6
 	is_whitelisted = 1
-	alt_titles = list("UNSC ODST Engineer","UNSC ODST Medic","UNSC ODST Sharpshooter","UNSC ODST Close Quarters Fighter")
+	alt_titles = list("UNSC ODST Engineer" = /decl/hierarchy/outfit/job/facil_ODST_engineer,
+	"UNSC ODST Medic" = /decl/hierarchy/outfit/job/facil_ODST_medic,
+	"UNSC ODST Sharpshooter" = /decl/hierarchy/outfit/job/facil_ODST_sharp,
+	"UNSC ODST Close Quarters Fighter" = /decl/hierarchy/outfit/job/facil_ODST_sqb)
 	access = list(access_unsc,access_unsc_armoury,access_unsc_odst,access_unsc_specialist)
 	outfit_type = /decl/hierarchy/outfit/job/facil_ODST
 
@@ -161,6 +164,76 @@
 
 	hierarchy_type = /decl/hierarchy/outfit/job
 
+/decl/hierarchy/outfit/job/facil_ODST_medic
+	name = "ODST Medic"
+	l_ear = /obj/item/device/radio/headset/unsc/odst
+	glasses = null
+	head = /obj/item/clothing/head/helmet/odst/medic
+	suit = /obj/item/clothing/suit/armor/special/odst/medic
+	uniform = /obj/item/clothing/under/unsc/odst_jumpsuit
+	gloves = /obj/item/clothing/gloves/tactical
+	shoes = /obj/item/clothing/shoes/jungleboots
+	gloves = /obj/item/clothing/gloves/thick/combat
+	belt = /obj/item/weapon/storage/belt/marine_medic/mobilespawn_medic
+	id_type = /obj/item/weapon/card/id/odst
+	starting_accessories = list (/obj/item/clothing/accessory/rank/fleet/enlisted/e4, /obj/item/clothing/accessory/holster/thigh, /obj/item/clothing/accessory/badge/tags)
+
+	flags = 0
+
+/decl/hierarchy/outfit/job/facil_ODST_engineer
+	name = "ODST Engineer"
+	l_ear = /obj/item/device/radio/headset/unsc/odst
+	glasses = null
+	head = /obj/item/clothing/head/helmet/odst/engineer
+	suit = /obj/item/clothing/suit/armor/special/odst/engineer
+	uniform = /obj/item/clothing/under/unsc/odst_jumpsuit
+	gloves = /obj/item/clothing/gloves/tactical
+	shoes = /obj/item/clothing/shoes/jungleboots
+	gloves = /obj/item/clothing/gloves/thick/combat
+	belt = /obj/item/weapon/gun/projectile/m6c_magnum_s
+	id_type = /obj/item/weapon/card/id/odst
+	starting_accessories = list (/obj/item/clothing/accessory/rank/fleet/enlisted/e4, /obj/item/clothing/accessory/holster/thigh, /obj/item/clothing/accessory/badge/tags)
+
+	flags = 0
+
+	hierarchy_type = /decl/hierarchy/outfit/job
+
+/decl/hierarchy/outfit/job/facil_ODST_sharp
+	name = "ODST Sharpshooter"
+	l_ear = /obj/item/device/radio/headset/unsc/odst
+	glasses = null
+	head = /obj/item/clothing/head/helmet/odst/sharpshooter
+	suit = /obj/item/clothing/suit/armor/special/odst/sharpshooter
+	uniform = /obj/item/clothing/under/unsc/odst_jumpsuit
+	gloves = /obj/item/clothing/gloves/tactical
+	shoes = /obj/item/clothing/shoes/jungleboots
+	gloves = /obj/item/clothing/gloves/thick/combat
+	belt = /obj/item/weapon/gun/projectile/m6c_magnum_s
+	id_type = /obj/item/weapon/card/id/odst
+	starting_accessories = list (/obj/item/clothing/accessory/rank/fleet/enlisted/e4, /obj/item/clothing/accessory/holster/thigh, /obj/item/clothing/accessory/badge/tags)
+
+	flags = 0
+
+	hierarchy_type = /decl/hierarchy/outfit/job
+
+/decl/hierarchy/outfit/job/facil_ODST_sqb
+	name = "ODST SQB"
+	l_ear = /obj/item/device/radio/headset/unsc/odst
+	glasses = null
+	head = /obj/item/clothing/head/helmet/odst/cqb
+	suit = /obj/item/clothing/suit/armor/special/odst/cqb
+	uniform = /obj/item/clothing/under/unsc/odst_jumpsuit
+	gloves = /obj/item/clothing/gloves/tactical
+	shoes = /obj/item/clothing/shoes/jungleboots
+	gloves = /obj/item/clothing/gloves/thick/combat
+	belt = /obj/item/weapon/gun/projectile/m6c_magnum_s
+	id_type = /obj/item/weapon/card/id/odst
+	starting_accessories = list (/obj/item/clothing/accessory/rank/fleet/enlisted/e4, /obj/item/clothing/accessory/holster/thigh, /obj/item/clothing/accessory/badge/tags)
+
+	flags = 0
+
+	hierarchy_type = /decl/hierarchy/outfit/job
+
 /datum/job/unsc_job/odst/squadlead
 	title = "UNSC ODST Squad Leader"
 	total_positions = 1
@@ -175,6 +248,8 @@
 
 	l_ear = /obj/item/device/radio/headset/unsc/odst
 	glasses = null
+	head = /obj/item/clothing/head/helmet/odst/squadleader
+	suit = /obj/item/clothing/suit/armor/special/odst/squadleader
 	uniform = /obj/item/clothing/under/unsc/odst_jumpsuit
 	gloves = /obj/item/clothing/gloves/tactical
 	shoes = /obj/item/clothing/shoes/jungleboots
