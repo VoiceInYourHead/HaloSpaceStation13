@@ -143,16 +143,14 @@
 /decl/hierarchy/outfit/sangheili/heretic
 	name = "Sangheili (Heretic)"
 
-	suit = /obj/item/clothing/suit/armor/special/combatharness/arbiter
+	suit = /obj/item/clothing/suit/armor/special/combatharness/heretic
 	suit_store = /obj/item/weapon/gun/energy/plasmarifle
-	mask = /obj/item/clothing/mask/sangheili/arbiter
 	r_hand = /obj/item/weapon/melee/energy/elite_sword
 	l_hand = /obj/item/language_learner/unggoy_to_common
-	back = /obj/item/weapon/melee/energy/energystave
 	belt = /obj/item/weapon/gun/energy/plasmapistol
-	gloves = /obj/item/clothing/gloves/thick/sangheili/arbiter
-	shoes = /obj/item/clothing/shoes/sangheili/arbiter
-	head = /obj/item/clothing/head/helmet/sangheili/arbiter
+	head = /obj/item/clothing/head/helmet/sangheili/heretic
+	gloves = /obj/item/clothing/gloves/thick/sangheili/heretic
+	shoes = /obj/item/clothing/shoes/sangheili/heretic
 	r_pocket = /obj/item/weapon/grenade/plasma
 	//
 	id_type = /obj/item/weapon/card/id/elite_zealot

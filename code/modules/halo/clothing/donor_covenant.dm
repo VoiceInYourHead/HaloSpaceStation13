@@ -519,3 +519,51 @@
 	shoes = /obj/item/clothing/shoes/sangheili/zane
 	head = /obj/item/clothing/head/helmet/sangheili/zane
 	l_pocket = /obj/item/weapon/grenade/plasma
+
+//Covrik
+
+/obj/item/clothing/suit/armor/special/combatharness/heretic
+	name = "Heretic's Combat Harness"
+	desc = "A protective harness for use during combat by the heretic."
+	icon_state = "heretic_chest_obj"
+	item_state = "heretic_chest"
+	totalshields = 200
+	specials = list(/datum/armourspecials/shields,/datum/armourspecials/shieldmonitor/sangheili,/datum/armourspecials/holo_decoy)
+
+/obj/item/clothing/head/helmet/sangheili/heretic
+	name = "Heretic's Glasses"
+	desc = "A protective helmet for use during combat by an heretic."
+	icon_state = "heretic_helm_obj"
+	item_state = "heretic_helm"
+
+/obj/item/clothing/shoes/sangheili/heretic
+	name = "Heretic's Leg Armour"
+	desc = "Protective leg armour for use by an heretic."
+	icon_state = "heretic_legs_obj"
+	item_state = "heretic_legs"
+
+/obj/item/clothing/gloves/thick/sangheili/heretic
+	name = "Heretic's Gauntlets"
+	desc = "Protective gloves for use by an heretic."
+	icon_state = "heretic_gloves_obj"
+	item_state = "heretic_gloves"
+
+/obj/item/clothing/mask/sangheili/heretic
+	name = "Heretic's Mask"
+	desc = "A mask for covering your face."
+	icon_state = "heretic_mask_obj"
+	item_state = "heretic_mask"
+
+/obj/item/weapon/storage/box/large/donator/covrik
+	startswith = list(/obj/item/clothing/suit/armor/special/combatharness/heretic,
+					/obj/item/clothing/shoes/sangheili/heretic,
+					/obj/item/clothing/gloves/thick/sangheili/heretic,
+					/obj/item/clothing/mask/sangheili/heretic,
+					/obj/item/clothing/head/helmet/sangheili/heretic
+					)
+	can_hold = list(/obj/item/clothing/suit/armor/special/combatharness/heretic,
+					/obj/item/clothing/shoes/sangheili/heretic,
+					/obj/item/clothing/gloves/thick/sangheili/heretic,
+					/obj/item/clothing/mask/sangheili/heretic,
+					/obj/item/clothing/head/helmet/sangheili/heretic
+					)

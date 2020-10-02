@@ -4,7 +4,7 @@
 	icon_state = "dogler-arbiter-suit_obj"
 	item_state = "dogler-arbiter-suit_worn"
 	totalshields = 180
-	specials = list(/datum/armourspecials/shields,/datum/armourspecials/shieldmonitor/sangheili,/datum/armourspecials/cloaking,/datum/armourspecials/holo_decoy)
+	specials = list(/datum/armourspecials/shields,/datum/armourspecials/shieldmonitor/sangheili,/datum/armourspecials/cloaking)
 
 /obj/item/clothing/head/helmet/sangheili/arbiter
 	name = "Arbiter Helmet"
