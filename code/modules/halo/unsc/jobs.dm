@@ -333,6 +333,7 @@
 	selection_color = "#0A0A95"
 	total_positions = 1
 	spawn_positions = 1
+	is_whitelisted = 1
 	outfit_type = /decl/hierarchy/outfit/halo_ai_smart
 	whitelisted_species = list()
 	access = list(access_unsc,access_unsc_armoury,access_unsc_specialist,access_unsc_odst,access_unsc_oni,access_unsc_officers)
